@@ -16,8 +16,6 @@ class App extends Component {
         <MDBRow center style={{ height: "100vh" }}>
           <MDBCol middle="true" sm="8" className="text-center">
             <Router>
-              <AboutUs path="/about_us"/>
-              <Contact path="/contact"/>
               <Projects path="/projects"/>
             </Router>
           </MDBCol>
