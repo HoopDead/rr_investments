@@ -2,13 +2,13 @@ import React, { Component } from "react";
 
 import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact";
 
-class Contact extends Component {
+class Home extends Component {
   render() {
     return (
       <MDBContainer>
         <MDBRow center style={{ height: "100vh" }}>
           <MDBCol middle="true" sm="8" className="text-center">
-            <h1>Contact</h1>
+            <h1>Home Page</h1>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
@@ -16,4 +16,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default Home;
