@@ -5,7 +5,7 @@ import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact";
 function NavBar() {
    
     return (
-        <h1>hello</h1>
+        <h1>navbar</h1>
     )
 }
 
