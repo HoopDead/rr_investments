@@ -11,11 +11,11 @@ class Contact extends Component {
             <form style = {{marginTop: 50}}>
             <p className="h5 text-center mb-4">Wypełnij poniższy formularz!</p>
             <div className="grey-text">
-             <MDBCol class = "col-md-6">
+             <MDBCol>
                <MDBInput label="Imie"  name = "name"/>
                <MDBInput label="Email"  name = "email"/>
              </MDBCol>
-             <MDBCol class = "col-md-6">
+             <MDBCol>
                <MDBInput label="Nazwa firmy" name = "text" />
                <MDBInput label="Numer telefonu" name = "tel"/>
              </MDBCol>
