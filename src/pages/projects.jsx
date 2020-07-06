@@ -1,15 +1,12 @@
 import React, { Component } from "react";
 
-import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact";
+import { MDBBtn, MDBCol, MDBContainer, MDBRow, MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText } from "mdbreact";
+
 
 class Projects extends Component {
   render() {
     return (
-        <MDBRow>
-          <MDBCol sm="12" className = "text-center">
-            <h1>Projects</h1>
-          </MDBCol>
-        </MDBRow>
+        <h1>Projects</h1>
     );
   }
 }

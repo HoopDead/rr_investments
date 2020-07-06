@@ -39,6 +39,25 @@ html, body {
     font-family: Raleway-Bold !important;
 }
 
+/* PROJECT SECTION */
+
+.projects-hr-orange-border {
+    width: 210px;
+    padding: 4px;
+    background-color: #FF7F50;
+}
+
+.projects-hr-orange-border-2 {
+    width: 250px;
+    padding: 2px;
+    background-color: #FF7F50;
+}
+
+
+
+
+/* END OF PROJECT SECTION */
+
 /* END OF FONT SECTION */
 
 /* END OF INDEX CSS */
