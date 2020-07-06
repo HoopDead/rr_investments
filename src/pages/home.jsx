@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import Landing from "../assets/landing.svg"
+
 import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact";
 
 class Home extends Component {
@@ -7,8 +9,7 @@ class Home extends Component {
     return (
       <MDBContainer>
         <MDBRow center style={{ height: "100vh" }}>
-          <MDBCol middle="true" sm="8" className="text-center">
-            <h1>Home Page</h1>
+          <MDBCol md="5" sm="8" className="text-center h-50">
           </MDBCol>
         </MDBRow>
       </MDBContainer>
