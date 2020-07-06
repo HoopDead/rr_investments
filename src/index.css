@@ -8,7 +8,7 @@ html, body {
 
 /* END OF WHOLE PAGE SECTION */
 
-/* FONT FACE SECTION */
+/* FONT SECTION */
 
 @font-face {
     font-family: Raleway-Light;
@@ -23,6 +23,22 @@ html, body {
     src: url('../src/assets/fonts/Raleway-Bold.ttf');
 }
 
-/* END OF FONT FACE SECTION */
+
+/* Class for light font, can be used in every text tag. */
+.font-raleway-light {
+    font-family: Raleway-Light !important;
+}
+
+/* Class for regular font, can be used in every text tag. */
+.font-raleway {
+    font-family: Raleway !important;
+}
+
+/* Class for bold font, can be used in every text tag. */
+.font-raleway-bold {
+    font-family: Raleway-Bold !important;
+}
+
+/* END OF FONT SECTION */
 
 /* END OF INDEX CSS */
