@@ -2,7 +2,18 @@
 
 /* FONT FACE SECTION */
 
-
+@font-face {
+    font-family: Raleway-Light;
+    src: url('../src/assets/fonts/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: Raleway;
+    src: url('../src/assets/fonts/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: Raleway-Bold;
+    src: url('../src/assets/fonts/Raleway-Bold.ttf');
+}
 
 /* END OF FONT FACE SECTION */
 

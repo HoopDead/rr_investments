@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Landing from "../assets/landing.png"
+import Landing from "../assets/images/landing.png"
 
 import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact";
 
