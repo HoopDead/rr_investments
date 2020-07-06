@@ -6,22 +6,22 @@ class Contact extends Component {
   render() {
     return (
       <MDBContainer>
-         <MDBRow center style = {{height: "100vh"}}>
-            <h1 style = {{fontSize: 30, height: 50}}>Zrobimy dla Ciebie cos wspanialego, ale najpierw <span style = {{color: "coral"}}>porozmawiajmy.</span></h1>
-            <form>
+         <MDBRow center>
+            <h1 style = {{fontSize: 30, height: 50}}>Zrobimy dla Ciebie coś wspaniałego, ale najpierw <span style = {{color: "coral"}}>porozmawiajmy.</span></h1>
+            <form style = {{marginTop: 50}}>
             <p className="h5 text-center mb-4">Wypełnij poniższy formularz!</p>
             <div className="grey-text">
-             <MDBCol>
+             <MDBCol class = "col-md-6">
                <MDBInput label="Imie"  name = "name"/>
                <MDBInput label="Email"  name = "email"/>
              </MDBCol>
-             <MDBCol>
+             <MDBCol class = "col-md-6">
                <MDBInput label="Nazwa firmy" name = "text" />
                <MDBInput label="Numer telefonu" name = "tel"/>
              </MDBCol>
            </div>
            <div className="text-center">
-           <MDBBtn rounded color = "orange">Wyślij</MDBBtn>
+           <MDBBtn rounded >Wyślij</MDBBtn>
            </div>
            </form>
           </MDBRow>
