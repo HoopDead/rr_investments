@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 
+<<<<<<< HEAD
 import Landing from "../assets/landing.png"
+=======
+import Landing from "../assets/images/landing.png"
+>>>>>>> bf50a890403356fb98e227e4013424bca9efa95f
 
 import { MDBBtn, MDBCol, MDBRow } from "mdbreact";
 
