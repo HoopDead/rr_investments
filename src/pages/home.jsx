@@ -10,6 +10,7 @@ class Home extends Component {
       <MDBContainer>
         <MDBRow center style={{ height: "100vh" }}>
           <MDBCol md="5" sm="8" className="text-center h-50">
+            <img src={Landing} alt="Landing"/>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
