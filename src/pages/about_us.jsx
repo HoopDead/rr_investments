@@ -25,7 +25,7 @@ class AboutUs extends Component {
                 <div className = "d-flex flex-column my-auto">
                   <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
                   <hr className = "ml-1 projects-hr-orange-border"></hr>
-                  <div className = "text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
+                  <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
                 </div>
               </div>
             </MDBCol>
@@ -37,7 +37,7 @@ class AboutUs extends Component {
                 <div className = "d-flex flex-column my-auto">
                 <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
                   <hr className = "ml-1 projects-hr-orange-border"></hr>
-                  <div className = "text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
+                  <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
                 </div>
               </div>
             </MDBCol>
@@ -49,7 +49,7 @@ class AboutUs extends Component {
               <div className = "d-flex flex-column my-auto">
               <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
                 <hr className = "ml-1 projects-hr-orange-border"></hr>
-                <div className = "text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
+                <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
               </div>
             </div>
           </MDBCol>
@@ -57,13 +57,13 @@ class AboutUs extends Component {
           <MDBRow className = "my-5 mx-auto text-center">
           <MDBCol sm="12" lg="4" className = "text-center">
             <div className = "d-flex flex-row">
-              <div className = "mx-auto my-auto">
+              <div className = "mx-auto my-auto font-raleway-light">
                 <img src = {Phone} className = "img-fluid w-50"></img>
               </div>
               <div className = "d-flex flex-column my-auto">
               <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
                 <hr className = "ml-1 projects-hr-orange-border"></hr>
-                <div className = "text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
+                <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
               </div>
             </div>
           </MDBCol>
@@ -75,7 +75,7 @@ class AboutUs extends Component {
               <div className = "d-flex flex-column my-auto">
               <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
                 <hr className = "ml-1 projects-hr-orange-border"></hr>
-                <div className = "text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
+                <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
               </div>
             </div>
           </MDBCol>
@@ -87,7 +87,7 @@ class AboutUs extends Component {
               <div className = "d-flex flex-column my-auto">
               <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
                 <hr className = "ml-1 projects-hr-orange-border"></hr>
-                <div className = "text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
+                <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
               </div>
             </div>
           </MDBCol>
