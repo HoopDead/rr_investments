@@ -11,14 +11,14 @@ class Contact extends Component {
             <form style = {{marginTop: 50}}>
             <p className="h5 text-center mb-4">Wypełnij poniższy formularz!</p>
             <div className="grey-text">
-             <MDBCol>
-               <MDBInput label="Imie"  name = "name"/>
-               <MDBInput label="Email"  name = "email"/>
-             </MDBCol>
-             <MDBCol>
+             <MDBRow>
+               <MDBInput className = "col-sm-6" label="Imie"  name = "name"/>
+               <MDBInput  className = "col-sm-6"label="Email"  name = "email"/>
+             </MDBRow>
+             <MDBRow>
                <MDBInput label="Nazwa firmy" name = "text" />
                <MDBInput label="Numer telefonu" name = "tel"/>
-             </MDBCol>
+             </MDBRow>
            </div>
            <div className="text-center">
            <MDBBtn rounded >Wyślij</MDBBtn>
