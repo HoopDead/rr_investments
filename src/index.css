@@ -1,0 +1,44 @@
+/* INDEX CSS REACT RR_INVESTMENTS */
+
+/* WHOLE PAGE SECTION */
+
+html, body {
+    font-family: Raleway;
+}
+
+/* END OF WHOLE PAGE SECTION */
+
+/* FONT SECTION */
+
+@font-face {
+    font-family: Raleway-Light;
+    src: url('../src/assets/fonts/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: Raleway;
+    src: url('../src/assets/fonts/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: Raleway-Bold;
+    src: url('../src/assets/fonts/Raleway-Bold.ttf');
+}
+
+
+/* Class for light font, can be used in every text tag. */
+.font-raleway-light {
+    font-family: Raleway-Light !important;
+}
+
+/* Class for regular font, can be used in every text tag. */
+.font-raleway {
+    font-family: Raleway !important;
+}
+
+/* Class for bold font, can be used in every text tag. */
+.font-raleway-bold {
+    font-family: Raleway-Bold !important;
+}
+
+/* END OF FONT SECTION */
+
+/* END OF INDEX CSS */
