@@ -7,17 +7,21 @@ class Contact extends Component {
     return (
       <MDBContainer>
          <MDBRow center style = {{height: "100vh"}}>
-            <h1 style = {{fontSize: 26, height: 50}}>Zrobimy dla Ciebie cos wspanialego, ale najpierw <span style = {{color: "coral"}}>porozmawiajmy.</span></h1>
+            <h1 style = {{fontSize: 30, height: 50}}>Zrobimy dla Ciebie cos wspanialego, ale najpierw <span style = {{color: "coral"}}>porozmawiajmy.</span></h1>
             <form>
             <p className="h5 text-center mb-4">Wypełnij poniższy formularz!</p>
             <div className="grey-text">
-           <MDBInput label="Imie"  name = "name"/>
-           <MDBInput label="Email"  name = "email"/>
-           <MDBInput label="Nazwa firmy" name = "text" />
-           <MDBInput label="Numer telefonu" name = "tel"/>
+             <MDBCol>
+               <MDBInput label="Imie"  name = "name"/>
+               <MDBInput label="Email"  name = "email"/>
+             </MDBCol>
+             <MDBCol>
+               <MDBInput label="Nazwa firmy" name = "text" />
+               <MDBInput label="Numer telefonu" name = "tel"/>
+             </MDBCol>
            </div>
            <div className="text-center">
-           <MDBBtn color = "orange">Wyślij</MDBBtn>
+           <MDBBtn rounded color = "orange">Wyślij</MDBBtn>
            </div>
            </form>
           </MDBRow>
