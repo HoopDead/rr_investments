@@ -5,7 +5,7 @@ import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBIcon, MDBNavbarToggler, MDBColl
 function NavBot() {
    
     return (
-        <MDBNavbar expand className="d-md-none d-flex">
+        <MDBNavbar expand className="d-md-none d-flex fixed-bottom">
         <MDBNavbarNav className="text-uppercase justify-content-center text-center">
             <MDBNavItem className="mr-2 d-flex flex-column text-center">
                 <MDBIcon icon="home" size="lg"/>
