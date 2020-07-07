@@ -39,6 +39,8 @@ html, body {
     font-family: Raleway-Bold !important;
 }
 
+/* END OF FONT SECTION */
+
 /* HOME SECTION */
 
 .home-title {
@@ -126,9 +128,26 @@ html, body {
   color: #FF7F50;
 }
 
-
 /* END OF ABOUT SECTION */
 
-/* END OF FONT SECTION */
+/* CONTACT US SECTION */
+
+.contact-button-orange {
+    background-color: #FF7F50;
+    color: white;
+    border-radius: 1.5rem;
+}
+
+.contact-hr-orange {
+    background-color: #FF7F50;
+    padding: 1px;
+    width: 85%;
+}
+
+.contact-icon {
+    color: #FF7F50;
+}
+
+/* END OF CONTACT */
 
 /* END OF INDEX CSS */
