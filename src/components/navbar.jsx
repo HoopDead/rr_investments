@@ -7,7 +7,7 @@ function NavBar() {
     return (
         <MDBNavbar expand="md">
             <MDBNavbarBrand>Rybiański & Roman <span className="font-weight-bold">Investments</span></MDBNavbarBrand>
-            <MDBNavbarNav right className="text-uppercase">
+            <MDBNavbarNav right className="text-uppercase d-none d-md-flex">
                 <MDBNavItem className="mr-2">
                     <a href="przyklad">start</a>
                 </MDBNavItem>

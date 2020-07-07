@@ -12,6 +12,7 @@ import Home from "./pages/home.jsx";
 import AboutUs from "./pages/about_us.jsx";
 import Projects from "./pages/projects.jsx";
 import Contact from "./pages/contact.jsx";
+import NavBot from "./components/navbar-bot.jsx"
 
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
               <Contact path="contact"/>
               <Projects path="/projects"/>
             </Router>
+        <NavBot></NavBot>
       </div>
     );
   }
