@@ -18,14 +18,14 @@ class Contact extends Component {
             <form style = {{marginTop: 75}}>
                 <p className="h5 text-center mb-4">Wypełnij poniższy formularz!</p>
                 <div className="grey-text">
-                 <MDBRow>
-                    <MDBInput className = "col-sm-12" label="Imie"  name = "name"/>
-                    <MDBInput  className = "col-sm-12" label="Email"  name = "email"/>
-                 </MDBRow>
-                 <MDBRow>
-                    <MDBInput className = "col-sm-12" label="Nazwa firmy" name = "text" />
-                    <MDBInput className = "col-sm-12" label="Numer telefonu" name = "tel"/>
-                 </MDBRow>
+                   <MDBRow>
+                      <MDBInput className = "col-sm-12" label="Imie"  name = "name"/>
+                      <MDBInput  className = "col-sm-12" label="Email"  name = "email"/>
+                   </MDBRow>
+                   <MDBRow>
+                      <MDBInput className = "col-sm-12" label="Nazwa firmy" name = "text" />
+                      <MDBInput className = "col-sm-12" label="Numer telefonu" name = "tel"/>
+                   </MDBRow>
                 </div>
                 <div className="text-center">
                   <MDBBtn>Zapisz się!</MDBBtn>
@@ -35,21 +35,21 @@ class Contact extends Component {
              <div style = {{backgroundColor: "coral", width: "100vw", height: "5px", marginTop: "20px", marginBottom: "20px"}}></div>
              <p className = "h4 text-center mb-4">Wolisz tradycyjne metody?</p>
           <MDBRow>
-            <MDBCol className = "col-sm-4 text-center">
+             <MDBCol className = "col-sm-4 text-center">
                <img src = {Envelope} className = "img-fluid w-20"></img>
                <p>lorem@ipsum.com</p>
-            </MDBCol>
-            <MDBCol className = "col-sm-4 text-center">
+             </MDBCol>
+             <MDBCol className = "col-sm-4 text-center">
                <img src = {Mess} className = "img-fluid w-20"></img>
                <p>RRInvestments</p>
-            </MDBCol>
-            <MDBCol className = "col-sm-4 text-center">
+             </MDBCol>
+             <MDBCol className = "col-sm-4 text-center">
                <img src = {Telephone} className = "img-fluid w-20"></img>
                <p>+48 12456789</p>
-            </MDBCol>
+             </MDBCol>
             </MDBRow>
-          <div style = {{backgroundColor: "coral", width: "100vw", height: "5px", marginTop: "20px", marginBottom: "20px"}}></div>
-          <p className = "h5 text-center mb-4">Czekamy na twoją wiadomość!</p>
+           <div style = {{backgroundColor: "coral", width: "100vw", height: "5px", marginTop: "20px", marginBottom: "20px"}}></div>
+           <p className = "h5 text-center mb-4">Czekamy na twoją wiadomość!</p>
       </MDBContainer>
     );
   }
