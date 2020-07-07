@@ -148,6 +148,13 @@ html, body {
     color: #FF7F50;
 }
 
+.nav-item a {
+    color: #b6b6b6;
+    transition: 500ms;
+}
+.nav-item:hover a{
+    color: #FF7F50;
+}
 /* END OF CONTACT */
 
 /* END OF INDEX CSS */

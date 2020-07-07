@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import { Router } from "@reach/router";
 
 /* Here we imnport assets */
-import { MDBContainer } from "mdbreact";
 import "./index.css";
 /* here we import pages or components */
 
