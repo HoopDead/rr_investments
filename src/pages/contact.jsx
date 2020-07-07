@@ -6,13 +6,14 @@ import Envelope from "../assets/images/projects_envelope.png";
 import Telephone from "../assets/images/projects_telephone.png";
 import Mess from "../assets/images/projects_mess.png";
 
+import "../index.css";
 
 class Contact extends Component {
   render() {
     return (
-      <MDBContainer fluid >
+      <MDBContainer fluid>
          <MDBRow center>
-         <p className="h4 text-center mb-4">Zrobimy dla Ciebie coś wspaniałego, ale najpierw <span style = {{color: "coral"}}>porozmawiajmy.</span></p>
+         <p style = {{marginTop: "50px"}} className="h4 text-center mb-4">Zrobimy dla Ciebie coś wspaniałego, ale najpierw <span style = {{color: "coral"}}>porozmawiajmy.</span></p>
           </MDBRow>
           <MDBRow center>
             <form style = {{marginTop: 75}}>
@@ -32,8 +33,8 @@ class Contact extends Component {
                 </div>
              </form>
              </MDBRow>
-             <div style = {{backgroundColor: "coral", width: "100vw", height: "5px", marginTop: "20px", marginBottom: "20px"}}></div>
-             <p className = "h4 text-center mb-4">Wolisz tradycyjne metody?</p>
+             <div style = {{backgroundColor: "coral", height: "5px", marginTop: "60px", marginBottom: "20px"}}></div>
+             <p className = "h5 text-center mb-4">Wolisz tradycyjne metody?</p>
           <MDBRow>
              <MDBCol className = "col-sm-4 text-center">
                <img src = {Envelope} className = "img-fluid w-20"></img>
@@ -48,7 +49,7 @@ class Contact extends Component {
                <p>+48 12456789</p>
              </MDBCol>
             </MDBRow>
-           <div style = {{backgroundColor: "coral", width: "100vw", height: "5px", marginTop: "20px", marginBottom: "20px"}}></div>
+           <div style = {{backgroundColor: "coral", height: "5px", marginTop: "20px", marginBottom: "20px"}}></div>
            <p className = "h5 text-center mb-4">Czekamy na twoją wiadomość!</p>
       </MDBContainer>
     );
