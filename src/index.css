@@ -65,17 +65,22 @@ html, body {
     box-shadow: none;
     margin: auto;
     width: 90%;
-    border: 1px solid #FF7F50;
+    border: 5px solid #FF7F50;
+    padding: 3% 7%;
 }
 
-/* @Override */
+/* @Override carousel control */
 
 .carousel-control-next {
-    margin-right: -25px;
+    margin-right: -5%;
 }
 
 .carousel-control-prev {
-    margin-left: -25px;
+    margin-left: -5%;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 

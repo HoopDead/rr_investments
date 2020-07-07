@@ -5,12 +5,12 @@ import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView } from
 "mdbreact";
 
-import Diagram from "../assets/images/projects_diagram.png";
-import Laptop from "../assets/images/projects_laptop.png";
-import Person from "../assets/images/projects_person.png";
-import Phone from "../assets/images/projects_phone.png";
-import Briefcase from "../assets/images/projects_briefcase.png";
-import Gear from "../assets/images/projects_gear.png";
+import Diagram from "../assets/images/about_diagram.png";
+import Laptop from "../assets/images/about_laptop.png";
+import Person from "../assets/images/about_person.png";
+import Phone from "../assets/images/about_phone.png";
+import Briefcase from "../assets/images/about_briefcase.png";
+import Gear from "../assets/images/about_gear.png";
 
 class AboutUs extends Component {
   render() {
@@ -19,14 +19,14 @@ class AboutUs extends Component {
           Whole section for render a about section for devices larger than 992px.
         */
        <MDBContainer fluid = "True">
-        <div className = "d-none d-lg-block py-5">
+        <div className = "d-none d-md-block py-5">
           <div className = "mt-5">
             <h3 className = "text-center about-title">EVERYTHING <span className = "font-raleway-bold">STARTS</span> IN ONE PLACE</h3>
             <hr className = "about-hr-orange-border-2"></hr>
             <h5 className = "text-center font-raleway-light">Our story starts here. You have an idea, we have tools to bring your concept alive.</h5>
           </div>
           <MDBRow className = "my-5" center = "True" middle = "True">
-            <MDBCol sm="12" lg="4" className = "text-center">
+            <MDBCol sm="12" md = "6" lg="4" className = "text-center">
               <div className = "d-flex flex-row">
                 <div className = "mx-auto my-auto">
                   <img src = {Briefcase} className = "img-fluid w-50"></img>
@@ -38,7 +38,7 @@ class AboutUs extends Component {
                 </div>
               </div>
             </MDBCol>
-            <MDBCol sm="12" lg="4" className = "text-center">
+            <MDBCol sm="12" md = "6" lg="4" className = "text-center">
               <div className = "d-flex flex-row">
                 <div className = "mx-auto my-auto">
                   <img src = {Laptop} className = "img-fluid w-50"></img>
@@ -50,7 +50,7 @@ class AboutUs extends Component {
                 </div>
               </div>
             </MDBCol>
-          <MDBCol sm="12" lg="4" className = "text-center">
+          <MDBCol sm="12" md = "6" lg="4" className = "text-center">
             <div className = "d-flex flex-row">
               <div className = "mx-auto my-auto">
                 <img src = {Person} className = "img-fluid w-50"></img>
@@ -62,9 +62,7 @@ class AboutUs extends Component {
               </div>
             </div>
           </MDBCol>
-          </MDBRow>
-          <MDBRow className = "my-5 mx-auto text-center">
-          <MDBCol sm="12" lg="4" className = "text-center">
+          <MDBCol sm="12" md = "6" lg="4" className = "text-center">
             <div className = "d-flex flex-row">
               <div className = "mx-auto my-auto font-raleway-light">
                 <img src = {Phone} className = "img-fluid w-50"></img>
@@ -76,7 +74,7 @@ class AboutUs extends Component {
               </div>
             </div>
           </MDBCol>
-          <MDBCol sm="12" lg="4" className = "text-center">
+          <MDBCol sm="12" md = "6" lg="4" className = "text-center">
             <div className = "d-flex flex-row">
               <div className = "mx-auto my-auto">
                 <img src = {Gear} className = "img-fluid w-50"></img>
@@ -88,7 +86,7 @@ class AboutUs extends Component {
               </div>
             </div>
           </MDBCol>
-          <MDBCol sm="12" lg="4" className = "text-center">
+          <MDBCol sm="12" md = "6" lg="4" className = "text-center">
             <div className = "d-flex flex-row">
               <div className = "mx-auto my-auto">
                 <img src = {Diagram} className = "img-fluid w-50"></img>
@@ -102,7 +100,7 @@ class AboutUs extends Component {
           </MDBCol>
         </MDBRow>
         </div>
-        <div className = "d-xs-flex d-lg-none">
+        <div className = "d-xs-flex d-md-none">
           <MDBCol sm = "12">
             <div className = "mt-5">
               <h4 className = "text-justify font-raleway-bold">EVERYTHING STARTS IN ONE PLACE</h4>
@@ -111,26 +109,54 @@ class AboutUs extends Component {
           </MDBCol>
           <MDBCarousel
             activeItem={1}
-            length={3}
+            length={6}
             showControls={true}
             showIndicators={false}
             className="z-depth-1"
+            mobileGesture
             slide
             id = "about-carousel">
           <MDBCarouselInner>
             <MDBCarouselItem itemId="1">
-              <MDBView>
-                <p>Card 1</p>
+              <MDBView waves className = "text-center">
+                <img src = {Briefcase} className = "img-fluid mx-auto"></img>
+                <h4 className = "mt-4">Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="2">
-              <MDBView>
-                <p>Card 2</p>
+              <MDBView waves className = "text-center">
+                <img src = {Laptop} className = "img-fluid mx-auto"></img>
+                <h4 className = "mt-4">Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="3">
-              <MDBView>
-                <p>Card 3</p>
+              <MDBView waves className = "text-center">
+                <img src = {Person} className = "img-fluid mx-auto"></img>
+                <h4 className = "mt-4">Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              </MDBView>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId="4">
+              <MDBView waves className = "text-center">
+                <img src = {Phone} className = "img-fluid mx-auto"></img>
+                <h4 className = "mt-4">Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              </MDBView>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId="5">
+              <MDBView waves className = "text-center">
+                <img src = {Gear} className = "img-fluid mx-auto"></img>
+                <h4 className = "mt-4">Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              </MDBView>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId="6">
+              <MDBView waves className = "text-center">
+                <img src = {Diagram} className = "img-fluid mx-auto"></img>
+                <h4 className = "mt-4">Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
               </MDBView>
             </MDBCarouselItem>
           </MDBCarouselInner>
