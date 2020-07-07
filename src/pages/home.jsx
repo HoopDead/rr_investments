@@ -2,11 +2,12 @@ import React, { Component } from "react";
 
 import Landing from "../assets/images/landing.png"
 
-import { MDBBtn, MDBCol, MDBRow } from "mdbreact";
+import { MDBContainer, MDBCol, MDBRow } from "mdbreact";
 
 class Home extends Component {
   render() {
     return (
+      <MDBContainer fluid>
         <MDBRow center className="d-flex align-items-center">
           <MDBCol md="6" className="order-md-2 m-2">
           <div className="view overlay">
@@ -20,6 +21,7 @@ class Home extends Component {
               <a href="https://mdbootstrap.com/" class="btn btn-deep-orange text-uppercase">Contact Us</a>
           </MDBCol>
         </MDBRow>
+        </MDBContainer>
     );
   }
 }

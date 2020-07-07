@@ -19,7 +19,6 @@ class App extends Component {
     return (
       <div>
         <Navbar></Navbar>
-        <MDBContainer>
             {/* Routing. Path attribute defines a relative address  */}
             <Router>
               <Home path="/home"/>
@@ -27,7 +26,6 @@ class App extends Component {
               <Contact path="contact"/>
               <Projects path="/projects"/>
             </Router>
-        </MDBContainer>
       </div>
     );
   }
