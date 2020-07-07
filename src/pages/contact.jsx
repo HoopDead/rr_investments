@@ -19,17 +19,19 @@ class Contact extends Component {
             <form style = {{marginTop: 75}}>
                 <p className="h5 text-center mb-4">Wypełnij poniższy formularz!</p>
                 <div className="grey-text">
-                   <MDBRow>
-                      <MDBInput className = "col-sm-12" label="Imie"  name = "name"/>
-                      <MDBInput  className = "col-sm-12" label="Email"  name = "email"/>
+                   <MDBRow center>
+                      <MDBInput  style = {{width: "300px"}} className = "col-md-12" label="Imie"  name = "name"/>
+                      <span className = "d-none d-lg-flex" style={{width:"30px"}}></span> 
+                      <MDBInput style = {{width: "300px"}} className = "col-md-12" label="Email"  name = "email"/>  
                    </MDBRow>
-                   <MDBRow>
-                      <MDBInput className = "col-sm-12" label="Nazwa firmy" name = "text" />
-                      <MDBInput className = "col-sm-12" label="Numer telefonu" name = "tel"/>
+                   <MDBRow center> 
+                      <MDBInput style = {{width: "300px"}} className = "col-md-12" label="Nazwa firmy" name = "text" />
+                      <span className = "d-none d-lg-flex" style={{width:"30px"}}></span>
+                      <MDBInput style = {{width: "300px"}} className = "col-md-12" label="Numer telefonu" name = "tel"/>
                    </MDBRow>
                 </div>
                 <div className="text-center">
-                  <MDBBtn>Zapisz się!</MDBBtn>
+                  <MDBBtn floating gradient="peach">Zapisz się!</MDBBtn>
                 </div>
              </form>
              </MDBRow>
