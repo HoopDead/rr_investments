@@ -17,7 +17,7 @@ class Home extends Component {
               <p className="h1">R&R Company</p>
               <hr/>
               <p>You have an idea? You want to develop and create a brand new product? Get in touch with us and we will change the future togheter!</p>
-              <a href="https://mdbootstrap.com/" class="btn btn-deep-orange">CONTACT US</a>
+              <a href="https://mdbootstrap.com/" class="btn btn-deep-orange text-uppercase">Contact Us</a>
           </MDBCol>
         </MDBRow>
     );
