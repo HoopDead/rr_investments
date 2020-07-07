@@ -21,15 +21,13 @@ class Contact extends Component {
                 <div className="grey-text">
                    <MDBRow center>
                       <MDBInput  style = {{width: "300px"}} className = "col-md-12" label="Imie"  name = "name"/>
-                      <span style={{width:"30px"}}></span> 
-                      <MDBInput style = {{width: "300px"}} className = "col-md-12" label="Email"  name = "email"/>
-                      <span style={{width:"30px"}}></span> 
+                      <span className = "d-none d-lg-flex" style={{width:"30px"}}></span> 
+                      <MDBInput style = {{width: "300px"}} className = "col-md-12" label="Email"  name = "email"/>  
                    </MDBRow>
                    <MDBRow center> 
                       <MDBInput style = {{width: "300px"}} className = "col-md-12" label="Nazwa firmy" name = "text" />
-                      <span style={{width:"30px"}}></span>
+                      <span className = "d-none d-lg-flex" style={{width:"30px"}}></span>
                       <MDBInput style = {{width: "300px"}} className = "col-md-12" label="Numer telefonu" name = "tel"/>
-                      <span style={{width:"30px"}}></span> 
                    </MDBRow>
                 </div>
                 <div className="text-center">
