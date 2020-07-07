@@ -14,9 +14,9 @@ class AboutUs extends Component {
     return (
         <div className = "d-none d-lg-block py-5">
           <div className = "mt-5">
-            <h3 className = "text-center projects-title">EVERYTHING STARTS IN ONE PLACE</h3>
-            <hr className = "projects-hr-orange-border-2"></hr>
-            <p className = "text-center font-raleway-light">Our story starts here. You have an idea, we have tools to bring your concept alive.</p>
+            <h3 className = "text-center about-title">EVERYTHING STARTS IN ONE PLACE</h3>
+            <hr className = "about-hr-orange-border-2"></hr>
+            <p className = "text-center font-raleway-light about-font-small-responsive">Our story starts here. You have an idea, we have tools to bring your concept alive.</p>
           </div>
           <MDBRow className = "my-5" center = "True" middle = "True">
             <MDBCol sm="12" lg="4" className = "text-center">
@@ -26,7 +26,7 @@ class AboutUs extends Component {
                 </div>
                 <div className = "d-flex flex-column my-auto">
                   <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
-                  <hr className = "ml-1 projects-hr-orange-border"></hr>
+                  <hr className = "ml-1 about-hr-orange-border"></hr>
                   <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
                 </div>
               </div>
@@ -38,7 +38,7 @@ class AboutUs extends Component {
                 </div>
                 <div className = "d-flex flex-column my-auto">
                 <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
-                  <hr className = "ml-1 projects-hr-orange-border"></hr>
+                  <hr className = "ml-1 about-hr-orange-border"></hr>
                   <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
                 </div>
               </div>
@@ -50,7 +50,7 @@ class AboutUs extends Component {
               </div>
               <div className = "d-flex flex-column my-auto">
               <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
-                <hr className = "ml-1 projects-hr-orange-border"></hr>
+                <hr className = "ml-1 about-hr-orange-border"></hr>
                 <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
               </div>
             </div>
@@ -64,7 +64,7 @@ class AboutUs extends Component {
               </div>
               <div className = "d-flex flex-column my-auto">
               <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
-                <hr className = "ml-1 projects-hr-orange-border"></hr>
+                <hr className = "ml-1 about-hr-orange-border"></hr>
                 <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
               </div>
             </div>
@@ -76,7 +76,7 @@ class AboutUs extends Component {
               </div>
               <div className = "d-flex flex-column my-auto">
               <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
-                <hr className = "ml-1 projects-hr-orange-border"></hr>
+                <hr className = "ml-1 about-hr-orange-border"></hr>
                 <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
               </div>
             </div>
@@ -88,7 +88,7 @@ class AboutUs extends Component {
               </div>
               <div className = "d-flex flex-column my-auto">
               <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
-                <hr className = "ml-1 projects-hr-orange-border"></hr>
+                <hr className = "ml-1 about-hr-orange-border"></hr>
                 <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
               </div>
             </div>

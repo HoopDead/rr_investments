@@ -39,19 +39,23 @@ html, body {
     font-family: Raleway-Bold !important;
 }
 
-/* PROJECT SECTION */
+/* ABOUT US SECTION */
 
-.projects-section {
+.about-section {
     /* TODO */
 }
 
-.projects-hr-orange-border {
+.about-font-small-responsive {
+    font-size: 1.2rem;
+}
+
+.about-hr-orange-border {
     width: 210px;
     padding: 4px;
     background-color: #FF7F50;
 }
 
-.projects-hr-orange-border-2 {
+.about-hr-orange-border-2 {
     width: 250px;
     padding: 2px;
     background-color: #FF7F50;
@@ -60,7 +64,7 @@ html, body {
 
 
 
-/* END OF PROJECT SECTION */
+/* END OF ABOUT SECTION */
 
 /* END OF FONT SECTION */
 
