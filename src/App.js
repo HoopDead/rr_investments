@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div>
         <Navbar></Navbar>
-        <MDBContainer className = "min-vh-100">
+        <MDBContainer>
             {/* Routing. Path attribute defines a relative address  */}
             <Router>
               <Home path="/home"/>

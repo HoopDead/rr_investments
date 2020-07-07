@@ -12,11 +12,15 @@ import Gear from "../assets/images/projects_gear.png";
 class AboutUs extends Component {
   render() {
     return (
+        /*
+          Whole section for render a about section for devices larger than 992px.
+        */
+       <div>
         <div className = "d-none d-lg-block py-5">
           <div className = "mt-5">
-            <h3 className = "text-center about-title">EVERYTHING STARTS IN ONE PLACE</h3>
+            <h3 className = "text-center about-title">EVERYTHING <span className = "font-raleway-bold">STARTS</span> IN ONE PLACE</h3>
             <hr className = "about-hr-orange-border-2"></hr>
-            <p className = "text-center font-raleway-light about-font-small-responsive">Our story starts here. You have an idea, we have tools to bring your concept alive.</p>
+            <h5 className = "text-center font-raleway-light">Our story starts here. You have an idea, we have tools to bring your concept alive.</h5>
           </div>
           <MDBRow className = "my-5" center = "True" middle = "True">
             <MDBCol sm="12" lg="4" className = "text-center">
@@ -94,6 +98,16 @@ class AboutUs extends Component {
             </div>
           </MDBCol>
         </MDBRow>
+        </div>
+        <div className = "d-xs-flex d-lg-none">
+          <MDBCol sm = "12">
+            <div className = "mt-5">
+              <h3 className = "text-justify about-title">EVERYTHING <span className = "font-raleway-bold">STARTS</span> IN ONE PLACE</h3>
+              <hr className = "about-hr-orange-border-2 ml-1"></hr>
+              <h5 className = "text-justify font-raleway-light">Our story starts here. You have an idea, we have tools to bring your concept alive.</h5>
+            </div>
+          </MDBCol>
+        </div>
       </div>
     );
   }
