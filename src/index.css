@@ -45,6 +45,26 @@ html, body {
     font-size: 2.5rem;
 }
 
+@media only screen and (min-width: 769px) {
+    #projects-section {
+        background: url("./assets/images/projects_polygon.png");
+        background-position: right center;
+        background-attachment: fixed;
+        background-size: contain, fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    #projects-section {
+        background: url("./assets/images/projects_polygon_small.png");
+        background-position: right center;
+        background-attachment: fixed;
+        background-size: contain, fixed;
+        background-repeat: no-repeat;
+    }
+}
+
 .home-button-orange {
     background-color: #FF7F50 !important;
     color: white;

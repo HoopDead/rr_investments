@@ -6,11 +6,10 @@ import FirstProject from "../assets/images/projects_first.png";
 import SecondProject from "../assets/images/projects_second.png";
 import ThirdProject from "../assets/images/projects_third.png";
 
-
 class Projects extends Component {
   render() {
     return (
-        <MDBContainer fluid>
+        <MDBContainer fluid id = "projects-section">
           <MDBRow>
             <MDBCol lg = "4" xs = "12" className = "mt-5 py-5 text-center">
               <img className = "img-fluid" src = {FirstProject}></img>
