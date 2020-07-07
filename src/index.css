@@ -66,23 +66,31 @@ html, body {
     margin: auto;
     width: 90%;
     border: 5px solid #FF7F50;
-    padding: 3% 7%;
+    padding: 5% 10%;
 }
 
 /* @Override carousel control */
 
 .carousel-control-next {
-    margin-right: -5%;
+    margin-right: -14%;
 }
 
 .carousel-control-prev {
-    margin-left: -5%;
+    margin-left: -14%;
 }
 
-.carousel-control-next-icon {
-    background-image: url("./assets/images/about_carousel_right.png");
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 32px;
+  color: #FF7F50;
 }
 
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 32px;
+  color: #FF7F50;
+}
 
 
 /* END OF ABOUT SECTION */
