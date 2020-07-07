@@ -61,6 +61,22 @@ html, body {
     background-color: #FF7F50;
 }
 
+#about-carousel {
+    box-shadow: none;
+    margin: auto;
+    width: 90%;
+    border: 1px solid #FF7F50;
+}
+
+/* @Override */
+
+.carousel-control-next {
+    margin-right: -25px;
+}
+
+.carousel-control-prev {
+    margin-left: -25px;
+}
 
 
 

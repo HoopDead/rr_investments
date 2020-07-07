@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
-import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact";
+import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView } from
+"mdbreact";
 
 import Diagram from "../assets/images/projects_diagram.png";
 import Laptop from "../assets/images/projects_laptop.png";
@@ -15,7 +18,7 @@ class AboutUs extends Component {
         /*
           Whole section for render a about section for devices larger than 992px.
         */
-       <div>
+       <MDBContainer fluid = "True">
         <div className = "d-none d-lg-block py-5">
           <div className = "mt-5">
             <h3 className = "text-center about-title">EVERYTHING <span className = "font-raleway-bold">STARTS</span> IN ONE PLACE</h3>
@@ -102,13 +105,38 @@ class AboutUs extends Component {
         <div className = "d-xs-flex d-lg-none">
           <MDBCol sm = "12">
             <div className = "mt-5">
-              <h3 className = "text-justify about-title">EVERYTHING <span className = "font-raleway-bold">STARTS</span> IN ONE PLACE</h3>
-              <hr className = "about-hr-orange-border-2 ml-1"></hr>
-              <h5 className = "text-justify font-raleway-light">Our story starts here. You have an idea, we have tools to bring your concept alive.</h5>
+              <h4 className = "text-justify font-raleway-bold">EVERYTHING STARTS IN ONE PLACE</h4>
+              <h5 className = "text-justify font-raleway-light mt-3">Our story starts here. You have an idea, we have tools to bring your concept alive.</h5>
             </div>
           </MDBCol>
+          <MDBCarousel
+            activeItem={1}
+            length={3}
+            showControls={true}
+            showIndicators={false}
+            className="z-depth-1"
+            slide
+            id = "about-carousel">
+          <MDBCarouselInner>
+            <MDBCarouselItem itemId="1">
+              <MDBView>
+                <p>Card 1</p>
+              </MDBView>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId="2">
+              <MDBView>
+                <p>Card 2</p>
+              </MDBView>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId="3">
+              <MDBView>
+                <p>Card 3</p>
+              </MDBView>
+            </MDBCarouselItem>
+          </MDBCarouselInner>
+        </MDBCarousel>
         </div>
-      </div>
+      </MDBContainer>
     );
   }
 }
