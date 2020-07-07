@@ -4,7 +4,7 @@ import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact";
 
 import Diagram from "../assets/images/projects_diagram.png";
 import Laptop from "../assets/images/projects_laptop.png";
-import Person from "../assets/images/projects_person_comment.png";
+import Person from "../assets/images/projects_person.png";
 import Phone from "../assets/images/projects_phone.png";
 import Briefcase from "../assets/images/projects_briefcase.png";
 import Gear from "../assets/images/projects_gear.png";
@@ -12,10 +12,12 @@ import Gear from "../assets/images/projects_gear.png";
 class AboutUs extends Component {
   render() {
     return (
-        <div className = "d-none d-lg-block">
-          <h3 className = "text-center projects-title">EVERYTHING STARTS IN ONE PLACE</h3>
-          <hr className = "projects-hr-orange-border-2"></hr>
-          <p className = "text-center font-raleway-light">Our story starts here. You have an idea, we have tools to bring your concept alive.</p>
+        <div className = "d-none d-lg-block py-5">
+          <div className = "mt-5">
+            <h3 className = "text-center projects-title">EVERYTHING STARTS IN ONE PLACE</h3>
+            <hr className = "projects-hr-orange-border-2"></hr>
+            <p className = "text-center font-raleway-light">Our story starts here. You have an idea, we have tools to bring your concept alive.</p>
+          </div>
           <MDBRow className = "my-5" center = "True" middle = "True">
             <MDBCol sm="12" lg="4" className = "text-center">
               <div className = "d-flex flex-row">

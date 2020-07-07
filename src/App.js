@@ -17,7 +17,7 @@ import Contact from "./pages/contact.jsx";
 class App extends Component {
   render() {
     return (
-      <MDBContainer className = "min-vh-100 min-vw-100">
+      <MDBContainer fluid = "True" className = "min-vh-100 min-vw-100">
         <Navbar></Navbar>
           {/* Routing. Path attribute defines a relative address  */}
           <Router>
