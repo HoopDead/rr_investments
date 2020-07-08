@@ -26,7 +26,7 @@ class App extends Component {
               <Contact path="contact"/>
               <Projects path="/projects"/>
             </Router>
-        <NavBot></NavBot>
+          <NavBot></NavBot>
       </div>
     );
   }

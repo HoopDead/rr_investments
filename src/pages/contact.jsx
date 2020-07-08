@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { MDBBtn, MDBCol, MDBContainer, MDBRow, MDBInput, MDBIcon } from "mdbreact";
+import {  MDBCol, MDBContainer, MDBRow, MDBInput, MDBIcon } from "mdbreact";
 
 import Envelope from "../assets/images/projects_envelope.png";
 import Telephone from "../assets/images/projects_telephone.png";
@@ -39,15 +39,15 @@ class Contact extends Component {
              <p className = "h5 text-center my-4">Wolisz tradycyjne metody?</p>
           <MDBRow>
              <MDBCol className = "col-sm-4 text-center my-2">
-               <img src = {Envelope} className = "img-fluid w-20"></img>
+               <img src = {Envelope} alt="envelope" className = "img-fluid w-20"></img>
                <p className = "mt-1"><span class = "font-raleway-bold">lorem</span>@ipsum.com</p>
              </MDBCol>
              <MDBCol className = "col-sm-4 text-center my-2">
-               <img src = {Mess} className = "img-fluid w-20"></img>
+               <img src = {Mess} alt="Mess" className = "img-fluid w-20"></img>
                <p className = "mt-1">RR <span class = "font-raleway-bold">Investments</span></p>
              </MDBCol>
              <MDBCol className = "col-sm-4 text-center my-2">
-               <img src = {Telephone} className = "img-fluid w-20"></img>
+               <img src = {Telephone} alt="Telephone" className = "img-fluid w-20"></img>
                <p className = "mt-1"><span className = "font-raleway-bold">+48</span> 124 567 289</p>
              </MDBCol>
             </MDBRow>
