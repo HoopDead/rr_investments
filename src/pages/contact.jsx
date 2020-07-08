@@ -38,15 +38,15 @@ class Contact extends Component {
              <hr className = "contact-hr-orange"></hr>
              <p className = "h5 text-center my-4">Wolisz tradycyjne metody?</p>
           <MDBRow>
-             <MDBCol className = "col-sm-4 text-center my-2">
+             <MDBCol className = "col-6 col-lg-4 text-center my-2">
                <img src = {Envelope} className = "img-fluid w-20"></img>
                <p className = "mt-1"><span class = "font-raleway-bold">lorem</span>@ipsum.com</p>
              </MDBCol>
-             <MDBCol className = "col-sm-4 text-center my-2">
+             <MDBCol className = "col-6 col-lg-4 text-center my-2">
                <img src = {Mess} className = "img-fluid w-20"></img>
                <p className = "mt-1">RR <span class = "font-raleway-bold">Investments</span></p>
              </MDBCol>
-             <MDBCol className = "col-sm-4 text-center my-2">
+             <MDBCol className = "col-12 col-lg-4 text-center my-2">
                <img src = {Telephone} className = "img-fluid w-20"></img>
                <p className = "mt-1"><span className = "font-raleway-bold">+48</span> 124 567 289</p>
              </MDBCol>
