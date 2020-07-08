@@ -38,18 +38,6 @@ class Contact extends Component {
              <hr className = "contact-hr-orange m-0 w-100"></hr>
              <p className = "h5 text-center my-4">Wolisz tradycyjne metody?</p>
           <MDBRow>
-<<<<<<< HEAD
-             <MDBCol className = "col-sm-4 text-center my-2">
-               <img src = {Envelope} alt="envelope" className = "img-fluid w-20"></img>
-               <p className = "mt-1"><span class = "font-raleway-bold">lorem</span>@ipsum.com</p>
-             </MDBCol>
-             <MDBCol className = "col-sm-4 text-center my-2">
-               <img src = {Mess} alt="Mess" className = "img-fluid w-20"></img>
-               <p className = "mt-1">RR <span class = "font-raleway-bold">Investments</span></p>
-             </MDBCol>
-             <MDBCol className = "col-sm-4 text-center my-2">
-               <img src = {Telephone} alt="Telephone" className = "img-fluid w-20"></img>
-=======
              <MDBCol className = "col-6 col-lg-4 text-center my-2">
                <img src = {Envelope} className = "img-fluid w-20"></img>
                <p className = "mt-1"><span class = "font-raleway-bold">lorem</span>@ipsum.com</p>
@@ -60,7 +48,6 @@ class Contact extends Component {
              </MDBCol>
              <MDBCol className = "col-12 col-lg-4 text-center my-2">
                <img src = {Telephone} className = "img-fluid w-20"></img>
->>>>>>> 421fb2978ee0d37faf7146b1971ee30ea40c4738
                <p className = "mt-1"><span className = "font-raleway-bold">+48</span> 124 567 289</p>
              </MDBCol>
             </MDBRow>
