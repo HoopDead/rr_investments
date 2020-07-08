@@ -1,6 +1,6 @@
 import React from "react";
 
-import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBIcon, MDBNavbarToggler, MDBCollapse } from "mdbreact";
+import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBIcon } from "mdbreact";
 
 function NavBot() {
    
