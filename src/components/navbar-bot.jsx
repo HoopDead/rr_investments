@@ -5,7 +5,7 @@ import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBIcon } from "mdbreact";
 function NavBot() {
    
     return (
-        <MDBNavbar expand className="d-md-none d-flex fixed-bottom">
+        <MDBNavbar expand className="d-md-none d-flex fixed-bottom white">
         <MDBNavbarNav className="text-uppercase justify-content-center text-center">
             <MDBNavItem className="mr-2">
                 <a href="przyklad1" className="d-flex flex-column">
