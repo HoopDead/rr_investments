@@ -20,14 +20,14 @@ class Contact extends Component {
                 <p className="h6 text-center mb-4">Wypełnij poniższy formularz!</p>
                 <div className="grey-text">
                    <MDBRow center>
-                      <MDBInput  style = {{width: "250px"}}  label="Imie"  name = "name"/>
-                      <span className = "d-none d-lg-flex" style={{width:"30px"}}></span> 
-                      <MDBInput style = {{width: "250px"}} label="Email"  name = "email"/>  
+                      <MDBInput style = {{width: "210px"}} label="Imie"  name = "name"/>
+                      <span className = "d-none d-sm-flex" style={{width:"30px"}}></span> 
+                      <MDBInput  style = {{width: "210px"}} label="Email"  name = "email"/>  
                    </MDBRow>
                    <MDBRow center> 
-                      <MDBInput style = {{width: "250px"}}  label="Nazwa firmy" name = "text" />
-                      <span className = "d-none d-lg-flex" style={{width:"30px"}}></span>
-                      <MDBInput style = {{width: "250px"}} label="Numer telefonu" name = "tel"/>
+                      <MDBInput style = {{width: "210px"}}  label="Nazwa firmy" name = "text" />
+                      <span className = "d-none d-sm-flex" style={{width:"30px"}}></span>
+                      <MDBInput style = {{width: "210px"}} label="Numer telefonu" name = "tel"/>
                    </MDBRow>
                 </div>
                 <div className="text-center">
