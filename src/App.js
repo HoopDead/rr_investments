@@ -18,13 +18,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar></Navbar>
+        <Navbar/>
             {/* Routing. Path attribute defines a relative address  */}
-              <Home path="/home"/>
-              <AboutUs path="/about"/>
-              <Contact path="contact"/>
-              <Projects path="/projects"/>
-          <NavBot></NavBot>
+              <Home />
+              <AboutUs />
+              <Projects />
+              <Contact />
+          <NavBot/>
       </div>
     );
   }

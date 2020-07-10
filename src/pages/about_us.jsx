@@ -18,7 +18,7 @@ class AboutUs extends Component {
         /*
           Whole section for render a about section for devices larger than 992px.
         */
-       <MDBContainer fluid = "True" className = "py-md-5">
+       <MDBContainer fluid id="about" className = "py-md-5">
         <div className = "d-none d-md-block py-5">
           <div className = "mt-5">
             <h3 className = "text-center about-title">EVERYTHING <span className = "font-raleway-bold">STARTS</span> IN ONE PLACE</h3>

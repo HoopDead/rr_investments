@@ -11,7 +11,7 @@ import "../index.css";
 class Contact extends Component {
   render() {
     return (
-      <MDBContainer fluid >
+      <MDBContainer fluid id="contact">
          <MDBRow center>
            <MDBCol md="12">
              <p className="h4 text-center mb-4 mt-5 py-2 font-raleway-bold">Zrobimy dla Ciebie coś wspaniałego, ale najpierw <span style = {{color: "coral"}}>porozmawiajmy.</span></p>

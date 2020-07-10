@@ -7,7 +7,7 @@ import { MDBContainer, MDBCol, MDBRow} from "mdbreact";
 class Home extends Component {
   render() {
     return (
-      <MDBContainer fluid>
+      <MDBContainer fluid id="home">
         <MDBRow center className="d-flex align-items-center">
           <MDBCol lg="7" className="order-lg-2 order-xs-1 m-md-5 py-4 py-md-5 m-5">
           <div className="view overlay">

@@ -9,16 +9,16 @@ function NavBar() {
             <MDBNavbarBrand className = "navbar-title">Rybiański & Roman <span className="font-weight-bold">Investments</span></MDBNavbarBrand>
             <MDBNavbarNav right className="text-uppercase d-none d-md-flex">
                 <MDBNavItem className="mr-2">
-                    <a href="przyklad">start</a>
+                    <a href="#home">start</a>
                 </MDBNavItem>
                 <MDBNavItem className="mr-2">
-                    <a href="przyklad2">About Us</a>
+                    <a href="#about">About Us</a>
                 </MDBNavItem>
                 <MDBNavItem className="mr-2">
-                    <a href="przyklad3">Projects</a>
+                    <a href="#projects-section">Projects</a>
                 </MDBNavItem>
                 <MDBNavItem className="mr-2">
-                    <a href="przyklad4">Contact</a>
+                    <a href="#contact">Contact</a>
                 </MDBNavItem>
             </MDBNavbarNav>
         </MDBNavbar>
