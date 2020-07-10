@@ -191,6 +191,12 @@ html, body {
     color: #FF7F50;
 }
 
+@media (max-width: 575px) {
+    .nav-item a {
+        font-size: small;
+    }
+}
+
 /* END OF NAVBAR SECTION BOTTOM */
 
 /* END OF INDEX CSS */
