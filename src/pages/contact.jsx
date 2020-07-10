@@ -38,11 +38,11 @@ class Contact extends Component {
           <MDBRow>
              <MDBCol xs="6" lg="4" className = "text-center my-2">
                <img src = {Envelope} className = "img-fluid w-20"></img>
-               <p className = "mt-1"><span class = "font-raleway-bold">lorem</span>@ipsum.com</p>
+               <p className = "mt-1"><span className = "font-raleway-bold">lorem</span>@ipsum.com</p>
              </MDBCol>
              <MDBCol xs="6" lg="4" className = " text-center my-2">
                <img src = {Mess} className = "img-fluid w-20"></img>
-               <p className = "mt-1">RR <span class = "font-raleway-bold">Investments</span></p>
+               <p className = "mt-1">RR <span className = "font-raleway-bold">Investments</span></p>
              </MDBCol>
              <MDBCol xs="6" lg="4" className = "text-center my-2">
                <img src = {Telephone} className = "img-fluid w-20"></img>

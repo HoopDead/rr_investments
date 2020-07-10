@@ -18,7 +18,7 @@ class Home extends Component {
               <p className="h1 home-title">R&R Company</p>
               <hr></hr>
               <p className = "text-justify font-raleway-light">You have an idea? You want to develop and create a brand new product? Get in touch with us and we will change the future togheter!</p>
-              <a href="https://mdbootstrap.com/" class="btn home-button-orange  text-uppercase w-75">Contact Us</a>
+              <a href="https://mdbootstrap.com/" className="btn home-button-orange  text-uppercase w-75">Contact Us</a>
           </MDBCol>
         </MDBRow>
         </MDBContainer>

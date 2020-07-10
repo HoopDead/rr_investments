@@ -25,7 +25,7 @@ class AboutUs extends Component {
             <hr className = "about-hr-orange-border-2"></hr>
             <h5 className = "text-center font-raleway-light">Our story starts here. You have an idea, we have tools to bring your concept alive.</h5>
           </div>
-          <MDBRow className = "my-5" center = "True" middle = "True">
+          <MDBRow className = "my-5">
             <MDBCol sm="12" md = "6" lg="4" className = "text-center my-3">
               <div className = "d-flex flex-row">
                 <div className = "mx-auto my-auto">
@@ -121,42 +121,42 @@ class AboutUs extends Component {
               <MDBView waves className = "text-center">
                 <img src = {Briefcase} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
                 <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p class = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="2">
               <MDBView waves className = "text-center">
                 <img src = {Laptop} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
                 <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p class = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="3">
               <MDBView waves className = "text-center">
                 <img src = {Person} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
                 <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p class = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="4">
               <MDBView waves className = "text-center">
                 <img src = {Phone} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
                 <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p class = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="5">
               <MDBView waves className = "text-center">
                 <img src = {Gear} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
                 <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p class = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="6">
               <MDBView waves className = "text-center">
                 <img src = {Diagram} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
                 <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p class = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
               </MDBView>
             </MDBCarouselItem>
           </MDBCarouselInner>

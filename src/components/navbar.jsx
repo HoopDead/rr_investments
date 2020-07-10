@@ -6,8 +6,8 @@ function NavBar() {
    
     return (
         <MDBNavbar expand="md" className="fixed-top white">
-            <MDBNavbarBrand className = "navbar-title">Rybiański & Roman <span className="font-weight-bold">Investments</span></MDBNavbarBrand>
-            <MDBNavbarNav right className="text-uppercase d-none d-md-flex">
+            <MDBNavbarBrand className = "navbar-title ml-lg-5">Rybiański & Roman <span className="font-weight-bold">Investments</span></MDBNavbarBrand>
+            <MDBNavbarNav right className="text-uppercase d-none d-md-flex mr-lg-5">
                 <MDBNavItem className="mr-2">
                     <a href="#home">start</a>
                 </MDBNavItem>
