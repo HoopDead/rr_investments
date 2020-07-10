@@ -110,7 +110,7 @@ class AboutUs extends Component {
           <MDBCarousel
             activeItem={1}
             length={6}
-            showControls={true}
+            showControls={false}
             showIndicators={false}
             className="z-depth-1 mt-5"
             mobileGesture

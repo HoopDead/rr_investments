@@ -41,6 +41,16 @@ html, body {
 
 /* END OF FONT SECTION */
 
+/* NAVBAR SECTION UPPER */
+
+@media only screen and (max-width: 769px) {
+    .navbar-title {
+        font-size: 100%;
+    }
+}
+
+/* END OF NAVBAR */
+
 /* HOME SECTION */
 
 .home-title {
@@ -73,6 +83,18 @@ html, body {
     font-size: 13px;
 }
 
+@media only screen and (max-width: 769px) {
+    .text-w-auto {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .text-w-auto {
+        width: 50%;
+    }
+}
+
 /* END OF HOME SECTION */
 
 /* ABOUT US SECTION */
@@ -97,36 +119,42 @@ html, body {
     background-color: #FF7F50;
 }
 
-#about-carousel {
-    box-shadow: none;
-    margin: auto;
-    width: 90%;
-    border: 5px solid #FF7F50;
-    padding: 5% 10%;
+@media only screen and (max-width: 769px) {
+    #about-carousel {
+        box-shadow: none;
+        margin: auto;
+        width: 90%;
+        border: 5px solid #FF7F50;
+        padding: 5% 10%;
+        margin-bottom: 150px !important;
+    }
 }
 
 /* @Override carousel control */
 
-.carousel-control-next {
-    margin-right: -14%;
+
+/* USE ONLY IF CAROUSEL showControls = {true} */
+
+/* .carousel-control-next {
+    margin-right: -12%;
 }
 
-.carousel-control-prev {
-    margin-left: -14%;
+.carousel-control-pre {
+    margin-left: -12%;
 }
 
 .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 32px;
+  font-size: 16px;
   color: #FF7F50;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 32px;
+  font-size: 16px;
   color: #FF7F50;
-}
+} */
 
 /* END OF ABOUT SECTION */
 
@@ -148,13 +176,19 @@ html, body {
     color: #FF7F50;
 }
 
+/* END OF CONTACT */
+
+/* NAVBAR SECTION BOTTOM */
+
+
 .nav-item a {
     color: #b6b6b6;
     transition: 500ms;
 }
-.nav-item:hover a{
+.nav-item:hover a {
     color: #FF7F50;
 }
-/* END OF CONTACT */
+
+/* END OF NAVBAR SECTION BOTTOM */
 
 /* END OF INDEX CSS */
