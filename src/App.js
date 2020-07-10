@@ -20,12 +20,10 @@ class App extends Component {
       <div>
         <Navbar></Navbar>
             {/* Routing. Path attribute defines a relative address  */}
-            <Router>
               <Home path="/home"/>
               <AboutUs path="/about"/>
               <Contact path="contact"/>
               <Projects path="/projects"/>
-            </Router>
           <NavBot></NavBot>
       </div>
     );
