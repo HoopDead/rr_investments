@@ -149,6 +149,11 @@ html, body {
     color: #FF7F50;
 }
 
+.margin-contact-bottom
+{
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
 
 .nav-item a {
     color: #b6b6b6;

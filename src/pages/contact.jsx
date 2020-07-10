@@ -50,7 +50,7 @@ class Contact extends Component {
              </MDBCol>
             </MDBRow>
             <hr className = "contact-hr-orange"></hr>
-           <p className = "font-raleway-bold h5 text-center mb-5">Czekamy na twoją wiadomość!<MDBIcon className = "contact-icon mx-2" icon = "heart"></MDBIcon></p>
+           <p className = "font-raleway-bold h5 text-center margin-contact-bottom">Czekamy na twoją wiadomość!<MDBIcon className = "contact-icon mx-2" icon = "heart"></MDBIcon></p>
       </MDBContainer>
     );
   }
