@@ -13,34 +13,24 @@ class Contact extends Component {
     return (
       <MDBContainer fluid>
          <MDBRow center>
+           <MDBCol md="12">
              <p className="h4 text-center mb-4 mt-5 py-2 font-raleway-bold">Zrobimy dla Ciebie coś wspaniałego, ale najpierw <span style = {{color: "coral"}}>porozmawiajmy.</span></p>
+             <p className="h6 text-center mb-4">Wypełnij poniższy formularz!</p>
+            </MDBCol>
           </MDBRow>
-          <MDBRow center>
+          <MDBRow center className="grey-text">
             <form>
-                <p className="h6 text-center mb-4">Wypełnij poniższy formularz!</p>
-                <div className="grey-text">
-                   <MDBRow center>
-                     <MDBCol sm="12" md="6" className = "d-flex justify-content-center">
-                      <MDBInput style = {{width: "210px"}} label="Imie"  name = "name"/>
-                      <span className = "d-none d-md-flex" style={{width:"30px"}}></span> 
-                      </MDBCol>
-                      <MDBCol sm="12" md="6" className = "d-flex justify-content-center">
-                      <MDBInput  style = {{width: "210px"}} label="Email"  name = "email"/>  
-                      </MDBCol>
-                   </MDBRow>
-                   <MDBRow center> 
-                   <MDBCol sm="12" md="6" className = "d-flex justify-content-center">
-                      <MDBInput style = {{width: "210px"}}  label="Nazwa firmy" name = "text" />
-                      <span className = "d-none d-md-flex" style={{width:"30px"}}></span>
-                      </MDBCol>
-                      <MDBCol sm="12" md="6" className = "d-flex justify-content-center">
-                      <MDBInput style = {{width: "210px"}} label="Numer telefonu" name = "tel"/>
-                      </MDBCol>
-                   </MDBRow>
-                </div>
-                <div className="text-center">
-                  <button className = "btn contact-button-orange w-50 my-4">Zapisz się!</button>
-                </div>
+              <MDBCol sm="12" md="5" className = "d-md-flex d-md-inline justify-md-content-center">
+                <MDBInput style = {{width: "210px"}} label="Imie"  name = "name" className="mr-4"/>
+                <MDBInput  style = {{width: "210px"}} label="Email"  name = "email"/>  
+              </MDBCol>
+              <MDBCol sm="12" md="6" className = "d-md-flex d-md-inline justify-md-content-center">
+                <MDBInput style = {{width: "210px"}}  label="Nazwa firmy" name = "text" className="mr-4"/>
+                <MDBInput style = {{width: "210px"}} label="Numer telefonu" name = "tel"/>
+              </MDBCol>
+              <div className="text-center">
+                <button className = "btn contact-button-orange my-4">Zapisz się!</button>
+              </div>
              </form>
              </MDBRow>
              <hr className = "contact-hr-orange m-0 w-100"></hr>
