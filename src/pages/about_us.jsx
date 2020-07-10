@@ -12,7 +12,9 @@ import Phone from "../assets/images/about_phone.png";
 import Briefcase from "../assets/images/about_briefcase.png";
 import Gear from "../assets/images/about_gear.png";
 
+
 class AboutUs extends Component {
+
   render() {
     return (
         /*

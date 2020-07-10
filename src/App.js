@@ -13,7 +13,6 @@ import Projects from "./pages/projects.jsx";
 import Contact from "./pages/contact.jsx";
 import NavBot from "./components/navbar-bot.jsx"
 
-
 class App extends Component {
   render() {
     return (

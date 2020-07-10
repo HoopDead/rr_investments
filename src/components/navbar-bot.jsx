@@ -3,9 +3,43 @@ import React, { Component } from "react";
 import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBIcon } from "mdbreact";
 
 class NavBot extends Component {
+    state = {
+        scrollPosition: 0
+    }
 
+    listenToScrollEvent() {
+        document.addEventListener("scroll", () => {
+            requestAnimationFrame(() => {
+                this.calculateScrollDistance();
+                console.log(this.state);
+            });
+        });
+    }
 
+    calculateScrollDistance() {
+        const scrollTop = window.pageYOffset; // how much the user has scrolled by
+        const winHeight = window.innerHeight;
+        const docHeight = this.getDocHeight();
     
+        const totalDocScrollLength = docHeight - winHeight;
+        const scrollPostion = Math.floor(scrollTop / totalDocScrollLength * 100)
+    
+        this.setState({
+          scrollPostion,
+        });
+      }
+    
+      getDocHeight() {
+        return Math.max(
+          document.body.scrollHeight, document.documentElement.scrollHeight,
+          document.body.offsetHeight, document.documentElement.offsetHeight,
+          document.body.clientHeight, document.documentElement.clientHeight
+        );
+      }
+
+    componentDidMount() {
+        this.listenToScrollEvent()
+    }
     
     render() {
         return (
