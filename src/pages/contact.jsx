@@ -33,7 +33,7 @@ class Contact extends Component {
               </div>
              </form>
              </MDBRow>
-             <hr className = "contact-hr-orange m-0 w-100"></hr>
+             <hr className = "contact-hr-orange"></hr>
              <p className = "h5 text-center my-4">Wolisz tradycyjne metody?</p>
           <MDBRow>
              <MDBCol xs="6" lg="4" className = "text-center my-2">
@@ -49,8 +49,9 @@ class Contact extends Component {
                <p className = "mt-1"><span className = "font-raleway-bold">+48</span> 124 567 289</p>
              </MDBCol>
             </MDBRow>
-            <hr className = "contact-hr-orange m-0 w-100"></hr>
+            <hr className = "contact-hr-orange"></hr>
            <p className = "font-raleway-bold h5 text-center my-4">Czekamy na twoją wiadomość!<MDBIcon className = "contact-icon mx-2" icon = "heart"></MDBIcon></p>
+           <div className = "divgap"></div>
       </MDBContainer>
     );
   }
