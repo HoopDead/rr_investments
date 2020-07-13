@@ -26,7 +26,6 @@ class NavBot extends Component {
         const scrollTop = window.pageYOffset; // how much the user has scrolled by
 
 
-        const homeHeight = 0;
         const aboutHeight = document.getElementById("home").offsetHeight;
         const projectsHeight = document.getElementById("about").offsetHeight + aboutHeight;
         const contactHeight = document.getElementById("projects-section").offsetHeight + projectsHeight;

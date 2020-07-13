@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <MDBContainer fluid id="home">
         <MDBRow center className="d-flex align-items-center">
-          <MDBCol lg="7" className="order-lg-2 order-xs-1 m-md-5 py-4 py-md-5 m-5">
+          <MDBCol lg="7" className="order-lg-2 order-xs-1 m-md-5 py-4 ml-lg-5 py-md-5 m-5">
           <div className="view overlay">
             <img src={Landing} alt="Logo" className="img-fluid"/>
           </div>
