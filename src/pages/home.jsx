@@ -2,11 +2,12 @@ import React, { Component } from "react";
 
 import Landing from "../assets/images/landing.png"
 
-import { MDBContainer, MDBCol, MDBRow} from "mdbreact";
+import { MDBContainer, MDBCol, MDBRow, MDBAnimation} from "mdbreact";
 
 class Home extends Component {
   render() {
     return (
+      <MDBAnimation type="fadeInLeftBig">
       <MDBContainer fluid id="home">
         <MDBRow center className="d-flex align-items-center">
           <MDBCol lg="7" className="order-lg-2 order-xs-1 m-md-5 py-4 ml-lg-5 py-md-5 m-5">
@@ -22,6 +23,7 @@ class Home extends Component {
           </MDBCol>
         </MDBRow>
         </MDBContainer>
+        </MDBAnimation>
     );
   }
 }
