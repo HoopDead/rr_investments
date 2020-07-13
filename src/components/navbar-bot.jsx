@@ -4,7 +4,7 @@ import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBIcon } from "mdbreact";
 
 class NavBot extends Component {
     state = {
-        scrollPosition: 0
+        scrollTop: 0
     }
 
     listenToScrollEvent() {
@@ -18,24 +18,30 @@ class NavBot extends Component {
 
     calculateScrollDistance() {
         const scrollTop = window.pageYOffset; // how much the user has scrolled by
-        const winHeight = window.innerHeight;
-        const docHeight = this.getDocHeight();
-    
-        const totalDocScrollLength = docHeight - winHeight;
-        const scrollPostion = Math.floor(scrollTop / totalDocScrollLength * 100)
-    
+
+
+        const homeHeight = 0;
+        const aboutHeight = document.getElementById("home").offsetHeight;
+        const projectsHeight = document.getElementById("about").offsetHeight + aboutHeight;
+        const contactHeight = document.getElementById("projects-section").offsetHeight + projectsHeight;
+
+        console.log(homeHeight, aboutHeight, projectsHeight, contactHeight)
+
+        if(scrollTop < aboutHeight) {
+            console.log("Im on home");
+        } else if (scrollTop > aboutHeight && scrollTop < projectsHeight) {
+            console.log("Im on about");
+        } else if(scrollTop > projectsHeight && scrollTop < contactHeight) {
+            console.log("Im on projects");
+        } else {
+            console.log("Im on contact");
+        }
+
         this.setState({
-          scrollPostion,
+          scrollTop,
         });
       }
-    
-      getDocHeight() {
-        return Math.max(
-          document.body.scrollHeight, document.documentElement.scrollHeight,
-          document.body.offsetHeight, document.documentElement.offsetHeight,
-          document.body.clientHeight, document.documentElement.clientHeight
-        );
-      }
+
 
     componentDidMount() {
         this.listenToScrollEvent()
