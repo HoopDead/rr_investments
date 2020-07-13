@@ -18,7 +18,6 @@ class NavBot extends Component {
         document.addEventListener("scroll", () => {
             requestAnimationFrame(() => {
                 this.calculateScrollDistance();
-                console.log(this.state);
             });
         });
     }
@@ -31,8 +30,6 @@ class NavBot extends Component {
         const aboutHeight = document.getElementById("home").offsetHeight;
         const projectsHeight = document.getElementById("about").offsetHeight + aboutHeight;
         const contactHeight = document.getElementById("projects-section").offsetHeight + projectsHeight;
-
-        console.log(homeHeight, aboutHeight, projectsHeight, contactHeight)
 
         if(scrollTop < aboutHeight) {
             document.getElementById("home-icon").style.color = "coral";
