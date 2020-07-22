@@ -1,12 +1,13 @@
 import React from "react";
 
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem } from "mdbreact";
+import Logo from "../assets/images/logo.png";
 
 function NavBar() {
    
     return (
         <MDBNavbar expand="md" className="fixed-top white">
-            <MDBNavbarBrand className = "navbar-title ml-lg-5">Rybiański & Roman <span className="font-weight-bold">Investments</span></MDBNavbarBrand>
+            <MDBNavbarBrand className = "navbar-title ml-lg-5"><img className = "img-fluid my-auto" src = {Logo}></img></MDBNavbarBrand>
             <MDBNavbarNav right className="text-uppercase d-none d-md-flex mr-lg-5">
                 <MDBNavItem className="mr-2">
                     <a href="#home">start</a>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import {  MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
-import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView } from
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBIcon } from
 "mdbreact";
 
 import Diagram from "../assets/images/about_diagram.png";
@@ -23,80 +23,116 @@ class AboutUs extends Component {
        <MDBContainer fluid id="about" className = "py-md-5">
         <div className = "d-none d-md-block py-5">
           <div className = "mt-5">
-            <h3 className = "text-center about-title">EVERYTHING <span className = "font-raleway-bold">STARTS</span> IN ONE PLACE</h3>
+            <h3 className = "text-center about-title">WSZYSTKO <span className = "font-raleway-bold">ZACZYNA SIĘ</span> TUTAJ</h3>
             <hr className = "about-hr-orange-border-2"></hr>
-            <h5 className = "text-center font-raleway-light">Our story starts here. You have an idea, we have tools to bring your concept alive.</h5>
+            <h5 className = "text-center font-raleway-light">Świadczymy usługi z zakresu:</h5>
           </div>
           <MDBRow className = "my-5">
             <MDBCol sm="12" md = "6" lg="4" className = "text-center my-3">
               <div className = "d-flex flex-row">
                 <div className = "mx-auto my-auto">
-                  <img src = {Briefcase} alt="icon" className = "img-fluid w-50"></img>
+                  <MDBIcon size = "2x" className = "orange-icon" icon = "laptop-code"></MDBIcon>
                 </div>
-                <div className = "d-flex flex-column my-auto">
-                  <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
+                <div className = "d-flex flex-column my-auto w-75">
+                  <div className = "text-justify"><h3><span className = "font-raleway-bold">Projektowanie</span></h3></div>
                   <hr className = "ml-1 about-hr-orange-border"></hr>
-                  <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
+                  <div className = "text-justify font-raleway">zaawansowanych,  kompleksowych oraz responsywnych stron internetowych.</div>
                 </div>
               </div>
             </MDBCol>
             <MDBCol sm="12" md = "6" lg="4" className = "text-center my-3">
               <div className = "d-flex flex-row">
                 <div className = "mx-auto my-auto">
-                  <img src = {Laptop} alt="icon" className = "img-fluid w-50"></img>
+                  <MDBIcon size = "2x" className = "orange-icon" icon = "cloud-upload-alt"></MDBIcon>
                 </div>
-                <div className = "d-flex flex-column my-auto">
-                <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
+                <div className = "d-flex flex-column my-auto w-75">
+                <div className = "text-justify"><h3><span className = "font-raleway-bold">Implementacja</span></h3></div>
                   <hr className = "ml-1 about-hr-orange-border"></hr>
-                  <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
+                  <div className = "text-justify font-raleway">aplikacji internetowych takich jak: blogi, sklepy internetowe, platformy sprzedażowe, fora i inne.</div>
                 </div>
               </div>
             </MDBCol>
           <MDBCol sm="12" md = "6" lg="4" className = "text-center my-3">
             <div className = "d-flex flex-row">
               <div className = "mx-auto my-auto">
-                <img src = {Person} alt="icon" className = "img-fluid w-50"></img>
+                <MDBIcon size = "2x" className = "orange-icon" icon = "cogs"></MDBIcon>
               </div>
-              <div className = "d-flex flex-column my-auto">
-              <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
+              <div className = "d-flex flex-column my-auto w-75">
+              <div className = "text-justify"><h3><span className = "font-raleway-bold">Optymalizacja</span></h3></div>
                 <hr className = "ml-1 about-hr-orange-border"></hr>
-                <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
-              </div>
-            </div>
-          </MDBCol>
-          <MDBCol sm="12" md = "6" lg="4" className = "text-center my-3">
-            <div className = "d-flex flex-row">
-              <div className = "mx-auto my-auto font-raleway-light">
-                <img src = {Phone} alt="icon" className = "img-fluid w-50"></img>
-              </div>
-              <div className = "d-flex flex-column my-auto">
-              <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
-                <hr className = "ml-1 about-hr-orange-border"></hr>
-                <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
+                <div className = "text-justify font-raleway">stron internetowych pod kątem wyników w wyszukiwarkach internetowych - SEO.</div>
               </div>
             </div>
           </MDBCol>
           <MDBCol sm="12" md = "6" lg="4" className = "text-center my-3">
             <div className = "d-flex flex-row">
               <div className = "mx-auto my-auto">
-                <img src = {Gear} alt="icon" className = "img-fluid w-50"></img>
+                <MDBIcon size = "2x" className = "orange-icon" icon = "pen-nib"></MDBIcon>
               </div>
-              <div className = "d-flex flex-column my-auto">
-              <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
+              <div className = "d-flex flex-column my-auto w-75">
+              <div className = "text-justify"><h3><span className = "font-raleway-bold">Tworzenie</span></h3></div>
                 <hr className = "ml-1 about-hr-orange-border"></hr>
-                <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
+                <div className = "text-justify font-raleway">tekstów z zakresu content marketingu: tekstów promocyjnych, reklamowych oraz innych, pożądanych przez naszych klientów zawartości.</div>
               </div>
             </div>
           </MDBCol>
           <MDBCol sm="12" md = "6" lg="4" className = "text-center my-3">
             <div className = "d-flex flex-row">
               <div className = "mx-auto my-auto">
-                <img src = {Diagram} alt="icon" className = "img-fluid w-50"></img>
+                <MDBIcon size = "2x" className = "orange-icon" icon = "tools"></MDBIcon>
               </div>
-              <div className = "d-flex flex-column my-auto">
-              <div className = "text-justify"><h3>Lorem <span className = "font-raleway-bold">ipsum</span></h3></div>
+              <div className = "d-flex flex-column my-auto w-75">
+              <div className = "text-justify"><h3><span className = "font-raleway-bold">Wdrażanie</span></h3></div>
                 <hr className = "ml-1 about-hr-orange-border"></hr>
-                <div className = "text-justify font-raleway-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel malesuada purus.</div>
+                <div className = "text-justify font-raleway">witryn typu Landing Page z zachowaniem standardów W3C.</div>
+              </div>
+            </div>
+          </MDBCol>
+          <MDBCol sm="12" md = "6" lg="4" className = "text-center my-3">
+            <div className = "d-flex flex-row">
+              <div className = "mx-auto my-auto">
+                <MDBIcon size = "2x" className = "orange-icon" icon = "money-bill-alt"></MDBIcon>
+              </div>
+              <div className = "d-flex flex-column my-auto w-75">
+              <div className = "text-justify"><h3><span className = "font-raleway-bold">Zespalanie</span></h3></div>
+                <hr className = "ml-1 about-hr-orange-border"></hr>
+                <div className = "text-justify font-raleway">witryn internetowych z wieloma rodzajami systemów płatności.</div>
+              </div>
+            </div>
+          </MDBCol>
+          <MDBCol sm="12" md = "6" lg="4" className = "text-center my-3">
+            <div className = "d-flex flex-row">
+              <div className = "mx-auto my-auto">
+                <MDBIcon size = "2x" className = "orange-icon" icon = "balance-scale"></MDBIcon>
+              </div>
+              <div className = "d-flex flex-column my-auto w-75">
+              <div className = "text-justify"><h3><span className = "font-raleway-bold">Doradztwo</span></h3></div>
+                <hr className = "ml-1 about-hr-orange-border"></hr>
+                <div className = "text-justify font-raleway">z zakresu wprowadzania firm w przestrzeń wirtualna: tworzenie stron w mediach społecznościowych, internetowych kampanii promocyjnych, strategii marketingowej w przestrzeni wirtualnej.</div>
+              </div>
+            </div>
+          </MDBCol>
+          <MDBCol sm="12" md = "6" lg="4" className = "text-center my-3">
+            <div className = "d-flex flex-row">
+              <div className = "mx-auto my-auto">
+                <MDBIcon size = "2x" className = "orange-icon" fab icon = "wordpress"></MDBIcon>
+              </div>
+              <div className = "d-flex flex-column my-auto w-75">
+              <div className = "text-justify"><h3><span className = "font-raleway-bold">Obsługa</span></h3></div>
+                <hr className = "ml-1 about-hr-orange-border"></hr>
+                <div className = "text-justify font-raleway">systemów zarządzania treścią - CMS oraz jego integracją z wcześniej powstałymi witrynami.</div>
+              </div>
+            </div>
+          </MDBCol>
+          <MDBCol sm="12" md = "6" lg="4" className = "text-center my-3">
+            <div className = "d-flex flex-row">
+              <div className = "mx-auto my-auto">
+                <MDBIcon size = "2x" className = "orange-icon" icon = "sync-alt"></MDBIcon>
+              </div>
+              <div className = "d-flex flex-column my-auto w-75">
+              <div className = "text-justify"><h3><span className = "font-raleway-bold">Modernizacja</span></h3></div>
+                <hr className = "ml-1 about-hr-orange-border"></hr>
+                <div className = "text-justify font-raleway">dotychczas istniejących witryn internetowych, ich dalszą obsługa oraz kompleksowym doradztwem.</div>
               </div>
             </div>
           </MDBCol>

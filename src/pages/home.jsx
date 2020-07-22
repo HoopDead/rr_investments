@@ -16,9 +16,9 @@ class Home extends Component {
           </div>
           </MDBCol>
           <MDBCol lg="3" className="order-lg-1 order-xs-2 text-center m-2">
-              <p className="h1 home-title">R&R Company</p>
+              <p className="h1 home-title">ITdepartment</p>
               <hr></hr>
-              <p className = "text-justify font-raleway-light">You have an idea? You want to develop and create a brand new product? Get in touch with us and we will change the future togheter!</p>
+              <p className = "text-justify font-raleway-light">jesteśmy dynamiczne rozwijającym się, młodym zespołem złożonym z pasjonatów zrzeszonym pod wspólnym celem: dostarczania naszym klientom zaawansowanych, responsywnych stron internetowych i szeroko pojętemu doradztwu z zakresu IT. Świadczone przez nas usługi charakteryzują się doskonałą jakością oraz wyjątkowym podejściem do klienta.</p>
               <a href="https://mdbootstrap.com/" className="btn home-button-orange  text-uppercase w-75">Contact Us</a>
           </MDBCol>
         </MDBRow>
