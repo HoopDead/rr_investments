@@ -36,7 +36,7 @@ class AboutUs extends Component {
                 <div className = "d-flex flex-column my-auto w-75">
                   <div className = "text-justify"><h3><span className = "font-raleway-bold">Projektowanie</span></h3></div>
                   <hr className = "ml-1 about-hr-orange-border"></hr>
-                  <div className = "text-justify font-raleway">zaawansowanych,  kompleksowych oraz responsywnych stron internetowych.</div>
+                  <div className = "text-justify font-raleway">zaawansowanych, kompleksowych oraz responsywnych stron internetowych.</div>
                 </div>
               </div>
             </MDBCol>
@@ -138,11 +138,12 @@ class AboutUs extends Component {
           </MDBCol>
         </MDBRow>
         </div>
+        {/* Section for devices smaller than 992px :) */}
         <div className = "d-xs-flex d-md-none">
           <MDBCol sm = "12">
             <div className = "mt-5">
-              <h4 className = "text-justify font-raleway-bold">EVERYTHING STARTS IN ONE PLACE</h4>
-              <h5 className = "text-justify font-raleway-light mt-3">Our story starts here. You have an idea, we have tools to bring your concept alive.</h5>
+              <h4 className = "text-justify font-raleway-bold">WSZYSTKO ZACZYNA SIĘ TUTAJ</h4>
+              <h5 className = "text-justify font-raleway-light mt-3">Świadczymy usługi z zakresu:</h5>
             </div>
           </MDBCol>
           <MDBCarousel
@@ -157,44 +158,44 @@ class AboutUs extends Component {
           <MDBCarouselInner>
             <MDBCarouselItem itemId="1">
               <MDBView waves className = "text-center">
-                <img src = {Briefcase} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
-                <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <MDBIcon size = "4x" className = "orange-icon" icon = "laptop-code"></MDBIcon>
+                <h3 className = "mt-4"><span className = "font-raleway-bold">Projektowanie</span></h3>
+                <p className = "font-raleway-light text-justify">zaawansowanych, kompleksowych oraz responsywnych stron internetowych.</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="2">
               <MDBView waves className = "text-center">
-                <img src = {Laptop} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
-                <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              <MDBIcon size = "4x" className = "orange-icon" icon = "balance-scale"></MDBIcon>
+                <h3 className = "mt-4"><span className = "font-raleway-bold">Doradztwo</span></h3>
+                <p className = "font-raleway-light text-justify">z zakresu wprowadzania firm w przestrzeń wirtualna: tworzenie stron w mediach społecznościowych, internetowych kampanii promocyjnych, strategii marketingowej w przestrzeni wirtualnej.</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="3">
               <MDBView waves className = "text-center">
-                <img src = {Person} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
-                <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <MDBIcon size = "4x" className = "orange-icon" icon = "cogs"></MDBIcon>
+                <h3 className = "mt-4"><span className = "font-raleway-bold">Optymalizacja</span></h3>
+                <p className = "font-raleway-light text-justify">stron internetowych pod kątem wyników w wyszukiwarkach internetowych - SEO.</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="4">
               <MDBView waves className = "text-center">
-                <img src = {Phone} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
-                <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <MDBIcon size = "4x" className = "orange-icon" icon = "pen-nib"></MDBIcon>
+                <h3 className = "mt-4"><span className = "font-raleway-bold">Tworzenie</span></h3>
+                <p className = "font-raleway-light text-justify">tekstów z zakresu content marketingu: tekstów promocyjnych, reklamowych oraz innych, pożądanych przez naszych klientów zawartości.</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="5">
               <MDBView waves className = "text-center">
-                <img src = {Gear} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
-                <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <MDBIcon size = "2x" className = "orange-icon" icon = "tools"></MDBIcon>
+                <h3 className = "mt-4"><span className = "font-raleway-bold">Wdrażanie</span></h3>
+                <p className = "font-raleway-light text-justify">witryn typu Landing Page z zachowaniem standardów W3C.</p>
               </MDBView>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="6">
               <MDBView waves className = "text-center">
-                <img src = {Diagram} alt="carousel-icoon" className = "img-fluid mx-auto"></img>
-                <h3 className = "mt-4">Lorem <span className = "font-raleway-bold">ipsum</span></h3>
-                <p className = "font-raleway-light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <MDBIcon size = "4x" className = "orange-icon" icon = "money-bill-alt"></MDBIcon>
+                <h3 className = "mt-4"><span className = "font-raleway-bold">Zespalanie</span></h3>
+                <p className = "font-raleway-light text-justify">witryn internetowych z wieloma rodzajami systemów płatności.</p>
               </MDBView>
             </MDBCarouselItem>
           </MDBCarouselInner>
