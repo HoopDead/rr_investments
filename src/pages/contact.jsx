@@ -7,8 +7,6 @@ import Envelope from "../assets/images/projects_envelope.png";
 import Telephone from "../assets/images/projects_telephone.png";
 import Mess from "../assets/images/projects_mess.png";
 
-import "../index.css";
-
 class Contact extends Component {
 
   sendEmail(e) {
