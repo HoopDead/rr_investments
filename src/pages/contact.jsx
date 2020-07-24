@@ -49,12 +49,22 @@ class Contact extends Component {
       validateErrorAlert.innerHTML = stringBuilder;
     } else {
       let validateErrorElement = document.getElementById("validate-error");
-      document.getElementById("contact-form").classList.add("d-none");
-      document.getElementById("contact-subtitle").classList.add("d-none");
-      document.getElementById("contact-title").innerHTML = "Dziękujemy za kontakt! <span style = 'color: coral'> odezwiemy się </span> do Ciebie w ciągu 24 godzin. ";
+      document.getElementById("contact-form").classList.add("animation-fade-out");
+      document.getElementById("contact-subtitle").classList.add("animation-fade-out");
+      document.getElementById("contact-title").classList.add("animation-fade-out");
+
+      setTimeout(() => {
+        document.getElementById("contact-form").classList.add("d-none");
+        document.getElementById("contact-subtitle").classList.add("d-none");
+        document.getElementById("contact-title").classList.add("animation-fade-in");
+        document.getElementById("contact-title").innerHTML = "Dziękujemy za kontakt! <span style = 'color: coral'> odezwiemy się </span> do Ciebie w ciągu 24 godzin. ";
+      }, 2000);
+
+   
       if(!validateErrorElement.classList.contains("d-none")) {
         validateErrorElement.classList.add("d-none");
       }
+    
     }
 
     emailjs.sendForm('smtp_server', 'template_KT5DsJQt', e.target, 'user_lsf0dUiMsCJz6YZkzJ5z3')
