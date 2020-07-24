@@ -70,25 +70,25 @@ class NavBot extends Component {
                 <MDBNavItem className="mr-2 mt-1">
                     <a href="#home" id="home-icon" className="d-flex flex-column">
                         <MDBIcon icon="home" size="lg"/>
-                        <span>start</span>
+                        <span>Start</span>
                     </a>
                 </MDBNavItem>
                 <MDBNavItem active className="mr-2 mt-1">
                     <a href="#about" id="about-icon" className="d-flex flex-column">
                         <MDBIcon icon="users" size="lg"/>
-                        <span>About Us</span>
+                        <span>O nas</span>
                     </a>
                 </MDBNavItem>
                 <MDBNavItem className="mr-2 d-flex flex-column mt-1">
                     <a href="#projects-section" id="projects-icon" className="d-flex flex-column">
                         <MDBIcon icon="suitcase" size="lg"/>
-                        <span>Projects</span>
+                        <span>Projekty</span>
                     </a>
                 </MDBNavItem>
                 <MDBNavItem className="mr-2 d-flex flex-column mt-1">
                     <a href="#contact" id="contact-icon" className="d-flex flex-column">
                         <MDBIcon icon="envelope" size="lg"/>
-                        <span>Contact</span>
+                        <span>Kontakt</span>
                     </a>
                 </MDBNavItem>
             </MDBNavbarNav>
