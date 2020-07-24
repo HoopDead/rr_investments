@@ -5,14 +5,6 @@ import {  MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBIcon } from
 "mdbreact";
 
-import Diagram from "../assets/images/about_diagram.png";
-import Laptop from "../assets/images/about_laptop.png";
-import Person from "../assets/images/about_person.png";
-import Phone from "../assets/images/about_phone.png";
-import Briefcase from "../assets/images/about_briefcase.png";
-import Gear from "../assets/images/about_gear.png";
-
-
 class AboutUs extends Component {
 
   render() {

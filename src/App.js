@@ -1,6 +1,5 @@
 /* Everything else */
 import React, { Component } from "react";
-import { Router } from "@reach/router";
 
 /* Here we imnport assets */
 import "./index.css";

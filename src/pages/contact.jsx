@@ -7,8 +7,6 @@ import Envelope from "../assets/images/projects_envelope.png";
 import Telephone from "../assets/images/projects_telephone.png";
 import Mess from "../assets/images/projects_mess.png";
 
-import "../index.css";
-
 class Contact extends Component {
 
   sendEmail(e) {
@@ -51,20 +49,30 @@ class Contact extends Component {
       validateErrorAlert.innerHTML = stringBuilder;
     } else {
       let validateErrorElement = document.getElementById("validate-error");
-      document.getElementById("contact-form").classList.add("d-none");
-      document.getElementById("contact-subtitle").classList.add("d-none");
-      document.getElementById("contact-title").innerHTML = "Dziękujemy za kontakt!" + " <span style = 'color: coral'> " + " odezwiemy się " + " </span> " + " do Ciebie w ciągu 24 godzin. ";
+      document.getElementById("contact-form").classList.add("animation-fade-out");
+      document.getElementById("contact-subtitle").classList.add("animation-fade-out");
+      document.getElementById("contact-title").classList.add("animation-fade-out");
+
+      setTimeout(() => {
+        document.getElementById("contact-form").classList.add("d-none");
+        document.getElementById("contact-subtitle").classList.add("d-none");
+        document.getElementById("contact-title").classList.add("animation-fade-in");
+        document.getElementById("contact-title").innerHTML = "Dziękujemy za kontakt! <span style = 'color: coral'> odezwiemy się </span> do Ciebie w ciągu 24 godzin. ";
+      }, 2000);
+
+   
       if(!validateErrorElement.classList.contains("d-none")) {
         validateErrorElement.classList.add("d-none");
       }
+    
     }
 
-    // emailjs.sendForm('smtp_server', 'template_MSHAOLP9', e.target, 'user_KdyD4MEr709A6BfcNnUb9')
-    //   .then((result) => {
-    //     console.log(result.text);
-    //   }, (error) => {
-    //     console.log(error.text);
-    //   });
+    emailjs.sendForm('smtp_server', 'template_KT5DsJQt', e.target, 'user_lsf0dUiMsCJz6YZkzJ5z3')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
   }
 
   render() {
@@ -100,16 +108,17 @@ class Contact extends Component {
              <p className = "h5 text-center my-4">Wolisz tradycyjne metody?</p>
           <MDBRow>
              <MDBCol xs="6" lg="4" className = "text-center my-2">
-               <img src = {Envelope} className = "img-fluid w-20"></img>
-               <p className = "mt-1"><span className = "font-raleway-bold">lorem</span>@ipsum.com</p>
+               <img src = {Envelope} className = "img-fluid w-20" alt = "Poczta email"></img>
+               <p className = "mt-1">biuro<span className = "font-raleway-bold">@itdepartment.pl</span></p>
              </MDBCol>
              <MDBCol xs="6" lg="4" className = " text-center my-2">
-               <img src = {Mess} className = "img-fluid w-20"></img>
-               <p className = "mt-1">RR <span className = "font-raleway-bold">Investments</span></p>
+               <img src = {Mess} className = "img-fluid w-20" alt = "Messenger"></img>
+               <p className = "mt-1">IT<span className = "font-raleway-bold">department</span></p>
              </MDBCol>
              <MDBCol xs="6" lg="4" className = "text-center my-2">
-               <img src = {Telephone} className = "img-fluid w-20"></img>
-               <p className = "mt-1"><span className = "font-raleway-bold">+48</span> 124 567 289</p>
+               <img src = {Telephone} className = "img-fluid w-20" alt = "Telefon"></img>
+               <p className = "mt-2"><span className = "font-raleway-bold">+48 </span>732 030 944</p>
+               <p className = "mt-1"><span className = "font-raleway-bold">+48 </span>506 746 648</p>
              </MDBCol>
             </MDBRow>
             <hr className = "contact-hr-orange mx-auto"></hr>

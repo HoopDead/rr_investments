@@ -7,19 +7,19 @@ function NavBar() {
    
     return (
         <MDBNavbar expand="md" className="fixed-top white">
-            <MDBNavbarBrand className = "navbar-title ml-lg-5"><img className = "img-fluid my-auto" src = {Logo}></img></MDBNavbarBrand>
+            <MDBNavbarBrand className = "navbar-title ml-lg-5"><img className = "img-fluid my-auto" src = {Logo} alt = "ITdepartment"></img></MDBNavbarBrand>
             <MDBNavbarNav right className="text-uppercase d-none d-md-flex mr-lg-5">
                 <MDBNavItem className="mr-2">
-                    <a href="#home">start</a>
+                    <a href="#home">Główna</a>
                 </MDBNavItem>
                 <MDBNavItem className="mr-2">
-                    <a href="#about">About Us</a>
+                    <a href="#about">O nas</a>
                 </MDBNavItem>
                 <MDBNavItem className="mr-2">
-                    <a href="#projects-section">Projects</a>
+                    <a href="#projects-section">Projekty</a>
                 </MDBNavItem>
                 <MDBNavItem className="mr-2">
-                    <a href="#contact">Contact</a>
+                    <a href="#contact">Kontakt</a>
                 </MDBNavItem>
             </MDBNavbarNav>
         </MDBNavbar>
