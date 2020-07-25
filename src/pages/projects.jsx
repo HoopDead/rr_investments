@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { MDBCol, MDBContainer, MDBRow } from "mdbreact";
 
-import FirstProject from "../assets/images/projects_first.png";
+import MissDress from "../assets/images/missdress.png";
 import SecondProject from "../assets/images/projects_second.png";
 import ThirdProject from "../assets/images/projects_third.png";
 
@@ -12,7 +12,7 @@ class Projects extends Component {
         <MDBContainer fluid id = "projects-section" className="min-vh-100">
           <MDBRow>
             <MDBCol lg = "4" xs = "12" className = "mt-5 py-5 text-center">
-              <img className = "img-fluid" alt="First project logo" src = {FirstProject}></img>
+              <img className = "img-fluid" alt="First project logo" src = {MissDress}></img>
               <h3 className = "mt-5 font-raleway-bold text-center">Tytuł strony #1</h3>
               <p className = "text-justify my-4 mx-auto text-w-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at sem aliquet, aliquet <span className = "font-raleway-bold">libreo</span> quis, vulputate ligula. Suspendisse non volutpat enim, quis euismod Morbi ornare, lorem interdum congue interdum, magna <span className = "font-raleway-bold">ligula</span> consequat lectus, eget iaculis ligula magna id lacus. Fusce blandit nunc ac aliquet cursus. Integer tempus nisl et est eleifend </p>
             </MDBCol>
