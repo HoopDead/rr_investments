@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "title": "Miss Dress",
+        "description": "Przykładowa strona stworzona do prezentacji salonu sukni ślubnych, garniturow, oraz rzeczy z tym związanych.",
+        "previewPhoto": "/missdress.png",
+        "slug": "project-miss-dress"
+    },
+    {
+        "id": 1,
+        "title": "Strzyga",
+        "description": "Przykładowy layout strony typu landing page - stworzony w ciągu procesu prezentacji dla salonu fryzjerskiego Strzyga.",
+        "previewPhoto": "/strzyga.png",
+        "slug": "project-strzyga"
+    },
+    {
+        "id": 2,
+        "title": "Sashimi Sushi",
+        "description": "Prototyp designerski strony typu landing page dla franczyzowego dystrybutora restauracji Japońskich w Polsce.",
+        "previewPhoto": "/sushi.png",
+        "slug": "project-sushi"
+    }
+]
