@@ -140,12 +140,11 @@ class AboutUs extends Component {
           </MDBCol>
           <MDBCarousel
             activeItem={1}
-            length={6}
-            showControls={false}
-            showIndicators={false}
+            length={9}
+            showControls={true}
+            showIndicators={true}
             className="z-depth-1 mt-5"
             mobileGesture
-            slide
             id = "about-carousel">
           <MDBCarouselInner>
             <MDBCarouselItem itemId="1">
@@ -157,7 +156,7 @@ class AboutUs extends Component {
             </MDBCarouselItem>
             <MDBCarouselItem itemId="2">
               <MDBView waves className = "text-center">
-              <MDBIcon size = "4x" className = "orange-icon" icon = "balance-scale"></MDBIcon>
+                <MDBIcon size = "4x" className = "orange-icon" icon = "balance-scale"></MDBIcon>
                 <h3 className = "mt-4"><span className = "font-raleway-bold">Doradztwo</span></h3>
                 <p className = "font-raleway-light text-justify">z zakresu wprowadzania firm w przestrzeń wirtualna: tworzenie stron w mediach społecznościowych, internetowych kampanii promocyjnych, strategii marketingowej w przestrzeni wirtualnej.</p>
               </MDBView>
@@ -188,6 +187,27 @@ class AboutUs extends Component {
                 <MDBIcon size = "4x" className = "orange-icon" icon = "money-bill-alt"></MDBIcon>
                 <h3 className = "mt-4"><span className = "font-raleway-bold">Zespalanie</span></h3>
                 <p className = "font-raleway-light text-justify">witryn internetowych z wieloma rodzajami systemów płatności.</p>
+              </MDBView>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId = "7">
+              <MDBView waves className = "text-center">
+                <MDBIcon size = "4x" className = "orange-icon" fab icon = "wordpress"></MDBIcon>
+                <h3 className = "mt-4"><span className = "font-raleway-bold">Obsługa</span></h3>
+                <p className = "font-raleway-light text-justify">systemów zarządzania treścią - CMS oraz jego integracją z wcześniej powstałymi witrynami/</p>
+              </MDBView>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId = "8">
+              <MDBView waves className = "text-center">
+                <MDBIcon size = "4x" className = "orange-icon" icon = "sync-alt"></MDBIcon>
+                <h3 className = "mt-4"><span className = "font-raleway-bold">Modernizacja</span></h3>
+                <p className = "font-raleway-light text-justify">dotychczas istniejących witryn internetowych, ich dalszą obsługa oraz kompleksowym doradztwem.</p>
+              </MDBView>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId = "9">
+              <MDBView waves className = "text-center">
+                <MDBIcon size = "4x" className = "orange-icon" icon = "cloud-upload-alt"></MDBIcon>
+                <h3 className = "mt-4"><span className = "font-raleway-bold">Implementacja</span></h3>
+                <p className = "font-raleway-light text-justify">aplikacji internetowych takich jak: blogi, sklepy internetowe, platformy sprzedażowe, fora i inne.</p>
               </MDBView>
             </MDBCarouselItem>
           </MDBCarouselInner>
