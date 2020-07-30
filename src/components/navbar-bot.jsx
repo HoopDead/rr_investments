@@ -9,7 +9,7 @@ class NavBot extends Component {
 
 
     windowOnLoadOverride() {
-        window.onload = function() {
+        window.onload = function () {
             document.getElementById("home-icon").style.color = "coral";
         }
     }
@@ -30,7 +30,7 @@ class NavBot extends Component {
         const projectsHeight = document.getElementById("about").offsetHeight + aboutHeight;
         const contactHeight = document.getElementById("projects-section").offsetHeight + projectsHeight;
 
-        if(scrollTop < aboutHeight) {
+        if (scrollTop < aboutHeight) {
             document.getElementById("home-icon").style.color = "coral";
             document.getElementById("about-icon").style.color = "";
             document.getElementById("projects-icon").style.color = "";
@@ -40,7 +40,7 @@ class NavBot extends Component {
             document.getElementById("about-icon").style.color = "coral";
             document.getElementById("projects-icon").style.color = "";
             document.getElementById("contact-icon").style.color = "";
-        } else if(scrollTop > projectsHeight && scrollTop < contactHeight) {
+        } else if (scrollTop > projectsHeight && scrollTop < contactHeight) {
             document.getElementById("home-icon").style.color = "";
             document.getElementById("about-icon").style.color = "";
             document.getElementById("projects-icon").style.color = "coral";
@@ -53,46 +53,46 @@ class NavBot extends Component {
         }
 
         this.setState({
-          scrollTop,
+            scrollTop,
         });
-      }
+    }
 
 
     componentDidMount() {
         this.windowOnLoadOverride()
         this.listenToScrollEvent()
     }
-    
+
     render() {
         return (
             <MDBNavbar expand className="d-md-none d-flex fixed-bottom white">
-            <MDBNavbarNav className="text-uppercase justify-content-center text-center py-1">
-                <MDBNavItem className="mr-2 mt-1">
-                    <a href="#home" id="home-icon" className="d-flex flex-column">
-                        <MDBIcon icon="home" size="lg"/>
-                        <span>Start</span>
-                    </a>
-                </MDBNavItem>
-                <MDBNavItem active className="mr-2 mt-1">
-                    <a href="#about" id="about-icon" className="d-flex flex-column">
-                        <MDBIcon icon="users" size="lg"/>
-                        <span>O nas</span>
-                    </a>
-                </MDBNavItem>
-                <MDBNavItem className="mr-2 d-flex flex-column mt-1">
-                    <a href="#projects-section" id="projects-icon" className="d-flex flex-column">
-                        <MDBIcon icon="suitcase" size="lg"/>
-                        <span>Projekty</span>
-                    </a>
-                </MDBNavItem>
-                <MDBNavItem className="mr-2 d-flex flex-column mt-1">
-                    <a href="#contact" id="contact-icon" className="d-flex flex-column">
-                        <MDBIcon icon="envelope" size="lg"/>
-                        <span>Kontakt</span>
-                    </a>
-                </MDBNavItem>
-            </MDBNavbarNav>
-        </MDBNavbar>
+                <MDBNavbarNav className="text-uppercase justify-content-center text-center py-1">
+                    <MDBNavItem className="mr-2 mt-1">
+                        <a href="#home" id="home-icon" className="d-flex flex-column">
+                            <MDBIcon icon="home" size="lg" />
+                            <span>Start</span>
+                        </a>
+                    </MDBNavItem>
+                    <MDBNavItem active className="mr-2 mt-1">
+                        <a href="#about" id="about-icon" className="d-flex flex-column">
+                            <MDBIcon icon="users" size="lg" />
+                            <span>O nas</span>
+                        </a>
+                    </MDBNavItem>
+                    <MDBNavItem className="mr-2 d-flex flex-column mt-1">
+                        <a href="#projects-section" id="projects-icon" className="d-flex flex-column">
+                            <MDBIcon icon="suitcase" size="lg" />
+                            <span>Projekty</span>
+                        </a>
+                    </MDBNavItem>
+                    <MDBNavItem className="mr-2 d-flex flex-column mt-1">
+                        <a href="#contact" id="contact-icon" className="d-flex flex-column">
+                            <MDBIcon icon="envelope" size="lg" />
+                            <span>Kontakt</span>
+                        </a>
+                    </MDBNavItem>
+                </MDBNavbarNav>
+            </MDBNavbar>
         )
     }
 }

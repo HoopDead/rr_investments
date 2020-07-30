@@ -1,28 +1,29 @@
 /* Everything else */
 import React, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 /* Here we imnport assets */
 import "./index.css";
 /* here we import pages or components */
 
-import Navbar from "./components/navbar.jsx"
-import Home from "./pages/home.jsx";
-import AboutUs from "./pages/about_us.jsx";
-import Projects from "./pages/projects.jsx";
-import Contact from "./pages/contact.jsx";
-import NavBot from "./components/navbar-bot.jsx"
+import Landing from "./pages/landing_page.jsx";
+import ProjectDetail from "./pages/project_detail.jsx";
+
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Navbar/>
-            {/* Routing. Path attribute defines a relative address  */}
-              <Home />
-              <AboutUs />
-              <Projects />
-              <Contact />
-          <NavBot/>
+        <Router forceRefresh={true}>
+          <Switch>
+            <Route path="/" exact component={Landing} />
+            <Route path="/projekt/:id" exact component={ProjectDetail} />
+          </Switch>
+        </Router>
       </div>
     );
   }
