@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
 } from "react-router-dom";
 
 /* Here we imnport assets */
@@ -13,14 +13,15 @@ import "./index.css";
 import Landing from "./pages/landing_page.jsx";
 import ProjectDetail from "./pages/project_detail.jsx";
 
+
 class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <Router forceRefresh={true}>
           <Switch>
             <Route path="/" exact component={Landing} />
-            <Route path="/projects/:id" extact component={ProjectDetail} />
+            <Route path="/projekt/:id" exact component={ProjectDetail} />
           </Switch>
         </Router>
       </div>
