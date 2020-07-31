@@ -21,7 +21,7 @@ class App extends Component {
         <Router forceRefresh={true}>
           <Switch>
             <Route path="/" exact component={Landing} />
-            <Route path="/projekt/:id" exact component={ProjectDetail} />
+            <Route path="/projekt/:slug" exact component={ProjectDetail} />
           </Switch>
         </Router>
       </div>

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import Landing from "../assets/images/landing.png"
-
 import { MDBContainer, MDBCol, MDBRow, MDBAnimation } from "mdbreact";
 
 class Home extends Component {

@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 
 /* Here we imnport assets */
-import { MDBCol, MDBContainer, MDBRow } from "mdbreact";
+
 /* here we import pages or components */
 
 import Navbar from "../components/navbar.jsx";
