@@ -11,7 +11,7 @@ function ProjectDetail({ match }) {
                     <MDBRow>
                         <MDBCol md="12">
                             <p>{project.title}</p>
-                            <img className="w-100" src={require('../assets/images' + project.previewPhoto)} alt="sadas" />
+                            <img className="w-100" src={require('../assets/images' + project.previewPhoto)} alt="Testq`" />
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>

@@ -2,18 +2,23 @@ import React, { Component } from "react";
 
 import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBIcon } from "mdbreact";
 
+/**
+ * Navbot
+ * Description: Render the bottom navbar with active animation when on specific section. 
+ */
 class NavBot extends Component {
     state = {
-        scrollTop: 0
+        scrollTop: 0 //Count how much pixels does user scrolled(?XD)
     }
 
-
+    //Function, that highlights home icon, when window is loaded
     windowOnLoadOverride() {
         window.onload = function () {
             document.getElementById("home-icon").style.color = "coral";
         }
     }
 
+    //Function, that listens when user is scrolling down/up
     listenToScrollEvent() {
         document.addEventListener("scroll", () => {
             requestAnimationFrame(() => {
@@ -22,6 +27,8 @@ class NavBot extends Component {
         });
     }
 
+
+    //Calculate, "WHERE" the user is on website - to be more specific, what section is on viewport
     calculateScrollDistance() {
         const scrollTop = window.pageYOffset; // how much the user has scrolled by
 
@@ -51,13 +58,13 @@ class NavBot extends Component {
             document.getElementById("projects-icon").style.color = "";
             document.getElementById("contact-icon").style.color = "coral";
         }
-
+        //Update the state every time that user is scrolling down
         this.setState({
             scrollTop,
         });
     }
 
-
+    //Bind function to component when everything is ready to display
     componentDidMount() {
         this.windowOnLoadOverride()
         this.listenToScrollEvent()

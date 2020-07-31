@@ -3,6 +3,11 @@ import React from "react";
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem } from "mdbreact";
 import Logo from "../assets/images/logo.png";
 
+/**
+ * Navbar
+ * Description: Render the upper navbar
+ */
+
 function NavBar() {
    
     return (
