@@ -1,24 +1,34 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow } from "mdbreact";
 
+import Navbar from "../components/navbar.jsx";
+
+
 import projects from "../assets/projects.json";
 
 function ProjectDetail({ match }) {
-    console.log(match);
-    for (let i = 0; i < projects.length; i++) {
-        if (projects[i].slug === match.params.slug) {
+    for (var project of projects) {
+        if(project.slug === match.params.slug) {
             return (
-                <MDBContainer>
-                    <MDBRow>
-                        <MDBCol md="12">
-                            <p>{projects[i].title}</p>
-                            <img className="w-100" src={require('../assets/images' + projects[i].previewPhoto)} alt="sadas" />
-                        </MDBCol>
-                    </MDBRow>
-                </MDBContainer>
-            )
+                    <div>
+                    <Navbar />
+                        <MDBContainer>
+                            <MDBRow className = "mt-5" center>
+                                <MDBCol md="6" className = "py-5 text-left">
+                                    <h3>{project.title}</h3>
+                                    <p>{project.description}</p>
+                                </MDBCol>
+                                <MDBCol md="6" className = "py-5 text-right">
+                                    <h6><span className = "font-raleway-bold">Zakres prac:</span> </h6>
+                                    <h6><span className = "font-raleway-bold">Branża:</span></h6>
+                                    <h6><span className = "font-raleway-bold">Lokalizacja:</span></h6>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBContainer>
+                    </div>
+                )
+            }
         }
-    }
 }
 
 export default ProjectDetail;

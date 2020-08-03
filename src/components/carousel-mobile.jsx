@@ -3,6 +3,12 @@ import React from "react";
 import { MDBContainer, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBIcon } from
     "mdbreact";
 
+
+/**
+ * CarouselMobile
+ * Description: Made for rendering carousel on website ONLY on devices that are smaller than 992 px in width
+ * TOOD: Probably update the carousel with brand new animation.
+ */
 const CarouselMobile = () => {
     return (
         <MDBCarousel
