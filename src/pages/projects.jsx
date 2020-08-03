@@ -17,7 +17,7 @@ class Projects extends Component {
             return (
               <MDBCol lg="4" xs="12" className="mt-2 py-5 text-center" key={project.slug}>
                 <Link to={`/projekt/${project.slug}`}>
-                  <img alt="First project logo" src={require("../assets/images/" + project.previewPhoto)}></img>
+                  <img className = "img-responsive" alt="First project logo" src={require("../assets/images/" + project.previewPhoto)}></img>
                 </Link>
               </MDBCol>
             )
