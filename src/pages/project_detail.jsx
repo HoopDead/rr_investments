@@ -12,15 +12,10 @@ function ProjectDetail({ match }) {
                 <div>
                     <Navbar />
                     <MDBContainer>
-                        <MDBRow className="mt-5" center>
+                        <MDBRow className="mt-5">
                             <MDBCol md="6" className="py-5 text-left">
                                 <h3>{project.title}</h3>
-                                <p>{project.description}</p>
-                            </MDBCol>
-                            <MDBCol md="6" className="py-5 text-left">
                                 <h6 className="font-raleway-bold">Zakres prac: <span className="font-raleway-light">{project.scopeOfWork}</span></h6>
-                                <h6 className="font-raleway-bold">Branża: <span className="font-raleway-light">{project.craft}</span></h6>
-                                <h6 className="font-raleway-bold">Lokalizacja: <span className="font-raleway-light">{project.location}</span></h6>
                             </MDBCol>
                         </MDBRow>
                         <MDBRow>

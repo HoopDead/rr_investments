@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3979eda27b17fe5ebc6fe254f488bc53",
+    "revision": "a633782aec30fd83a501337801f1073d",
     "url": "/index.html"
   },
   {
-    "revision": "0eb95ce90efc3f61dbb0",
+    "revision": "a6a5ea22151e182b7bf6",
     "url": "/static/css/2.ecc2c21d.chunk.css"
   },
   {
-    "revision": "80c2e5ec35756e32681c",
+    "revision": "7e5db6cbdcc6a33eb9bb",
     "url": "/static/css/main.04a01ba3.chunk.css"
   },
   {
-    "revision": "0eb95ce90efc3f61dbb0",
-    "url": "/static/js/2.5e192e74.chunk.js"
+    "revision": "a6a5ea22151e182b7bf6",
+    "url": "/static/js/2.94b27aed.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/static/js/2.5e192e74.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.94b27aed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80c2e5ec35756e32681c",
-    "url": "/static/js/main.c9a79cb6.chunk.js"
+    "revision": "7e5db6cbdcc6a33eb9bb",
+    "url": "/static/js/main.d13a9dd3.chunk.js"
   },
   {
     "revision": "d3124b27bbb5b4089688",
@@ -112,28 +112,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/landing.a83dd09a.png"
   },
   {
-    "revision": "32c308b40f15839b31d5aee407089c4e",
-    "url": "/static/media/logo.32c308b4.svg"
-  },
-  {
     "revision": "1f32a262477209cd3cbdcae3a43ceacb",
     "url": "/static/media/miss_dress_site.1f32a262.png"
   },
   {
-    "revision": "e6548d5e201a329cde1690d4905b75b3",
-    "url": "/static/media/projects_first.e6548d5e.png"
-  },
-  {
     "revision": "a3f57d75964f44857d705930e86eacbe",
     "url": "/static/media/projects_polygon.a3f57d75.png"
-  },
-  {
-    "revision": "7f3fd26fc30b47ea486545243105cab9",
-    "url": "/static/media/projects_second.7f3fd26f.png"
-  },
-  {
-    "revision": "a089d95c870269afad5213ec761a32d1",
-    "url": "/static/media/projects_third.a089d95c.png"
   },
   {
     "revision": "710adb5c1d0ed844ee3023a96d79e4ad",
