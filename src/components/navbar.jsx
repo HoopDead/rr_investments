@@ -16,16 +16,16 @@ function NavBar() {
             <MDBNavbarBrand className = "navbar-title ml-lg-5"><Link to = "/"><img className = "img-fluid my-auto" src = {Logo} alt = "ITdepartment"></img></Link></MDBNavbarBrand>
             <MDBNavbarNav right className="text-uppercase d-none d-md-flex mr-lg-5">
                 <MDBNavItem className="mr-2">
-                    <a href="#home">Główna</a>
+                    <a href="http://itdepartment.pl/#home">Główna</a>
                 </MDBNavItem>
                 <MDBNavItem className="mr-2">
-                    <a href="#about">O nas</a>
+                    <a href="http://itdepartment.pl/#about">O nas</a>
                 </MDBNavItem>
                 <MDBNavItem className="mr-2">
-                    <a href="#projects-section">Projekty</a>
+                    <a href="http://itdepartment.pl/#projects-section">Projekty</a>
                 </MDBNavItem>
                 <MDBNavItem className="mr-2">
-                    <a href="#contact">Kontakt</a>
+                    <a href="http://itdepartment.pl/#contact">Kontakt</a>
                 </MDBNavItem>
             </MDBNavbarNav>
         </MDBNavbar>
