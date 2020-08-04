@@ -18,9 +18,7 @@ function ProjectDetail({ match }) {
                                 <h6 className="font-raleway-bold">Zakres prac: <span className="font-raleway-light">{project.scopeOfWork}</span></h6>
                             </MDBCol>
                         </MDBRow>
-                        <MDBRow>
-                            <img className = "mw-100 mh-100 mx-auto" alt="project_site" src={require("../assets/images/" + project.page)}></img>
-                        </MDBRow>
+                            <img className = "mw-100 mh-100 img-fluid mx-auto" alt="project_site" src={require("../assets/images/" + project.page)}></img>
                     </MDBContainer>
                 </div>
             )
