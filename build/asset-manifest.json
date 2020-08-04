@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.04a01ba3.chunk.css",
-    "main.js": "/static/js/main.c9a79cb6.chunk.js",
-    "main.js.map": "/static/js/main.c9a79cb6.chunk.js.map",
+    "main.css": "/static/css/main.69db3de6.chunk.css",
+    "main.js": "/static/js/main.10f91d2d.chunk.js",
+    "main.js.map": "/static/js/main.10f91d2d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7974d308.js",
     "runtime-main.js.map": "/static/js/runtime-main.7974d308.js.map",
     "static/css/2.ecc2c21d.chunk.css": "/static/css/2.ecc2c21d.chunk.css",
     "static/js/2.5e192e74.chunk.js": "/static/js/2.5e192e74.chunk.js",
     "static/js/2.5e192e74.chunk.js.map": "/static/js/2.5e192e74.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6e2e1e3d3530f9e04a08cfa6a0f027be.js": "/precache-manifest.6e2e1e3d3530f9e04a08cfa6a0f027be.js",
+    "precache-manifest.ce1d36277823d1f5831a745d0bb18881.js": "/precache-manifest.ce1d36277823d1f5831a745d0bb18881.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ecc2c21d.chunk.css.map": "/static/css/2.ecc2c21d.chunk.css.map",
-    "static/css/main.04a01ba3.chunk.css.map": "/static/css/main.04a01ba3.chunk.css.map",
+    "static/css/main.69db3de6.chunk.css.map": "/static/css/main.69db3de6.chunk.css.map",
     "static/js/2.5e192e74.chunk.js.LICENSE.txt": "/static/js/2.5e192e74.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Raleway-Regular.9942588a.ttf",
     "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
@@ -20,6 +20,10 @@
     "static/media/landing.png": "/static/media/landing.a83dd09a.png",
     "static/media/logo.svg": "/static/media/logo.32c308b4.svg",
     "static/media/miss_dress_site.png": "/static/media/miss_dress_site.1f32a262.png",
+    "static/media/projects_first.png": "/static/media/projects_first.e6548d5e.png",
+    "static/media/projects_polygon.png": "/static/media/projects_polygon.a3f57d75.png",
+    "static/media/projects_second.png": "/static/media/projects_second.7f3fd26f.png",
+    "static/media/projects_third.png": "/static/media/projects_third.a089d95c.png",
     "static/media/sashimi_sushi_site.png": "/static/media/sashimi_sushi_site.710adb5c.png",
     "static/media/strzyga.png": "/static/media/strzyga.8ba6a0d7.png",
     "static/media/strzyga_site.png": "/static/media/strzyga_site.b796640f.png"
@@ -28,7 +32,7 @@
     "static/js/runtime-main.7974d308.js",
     "static/css/2.ecc2c21d.chunk.css",
     "static/js/2.5e192e74.chunk.js",
-    "static/css/main.04a01ba3.chunk.css",
-    "static/js/main.c9a79cb6.chunk.js"
+    "static/css/main.69db3de6.chunk.css",
+    "static/js/main.10f91d2d.chunk.js"
   ]
 }
