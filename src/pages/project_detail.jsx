@@ -19,7 +19,7 @@ function ProjectDetail({ match }) {
                             </MDBCol>
                         </MDBRow>
                         <MDBRow>
-                            <img className = "w-100 mx-auto" alt="project_site" src={require("../assets/images/" + project.page)}></img>
+                            <img className = "mw-100 mh-100 mx-auto" alt="project_site" src={require("../assets/images/" + project.page)}></img>
                         </MDBRow>
                     </MDBContainer>
                 </div>
