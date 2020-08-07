@@ -17,7 +17,7 @@ class Home extends Component {
             <MDBCol lg="3" className="order-lg-1 order-xs-2 text-center m-2 mt-5 pt-5">
               <p className="h1 home-title">ITdepartment</p>
               <hr></hr>
-              <p className="text-justify font-raleway-light">jesteśmy dynamiczne rozwijającym się, młodym zespołem złożonym z pasjonatów zrzeszonym pod wspólnym celem: dostarczania naszym klientom zaawansowanych, responsywnych stron internetowych i szeroko pojętemu doradztwu z zakresu IT. Świadczone przez nas usługi charakteryzują się doskonałą jakością oraz wyjątkowym podejściem do klienta.</p>
+              <p className="text-justify font-raleway-light">Jesteśmy dynamiczne rozwijającym się, młodym zespołem złożonym z pasjonatów zrzeszonym pod wspólnym celem: dostarczania naszym klientom zaawansowanych, responsywnych stron internetowych i szeroko pojętemu doradztwu z zakresu IT. Świadczone przez nas usługi charakteryzują się doskonałą jakością oraz wyjątkowym podejściem do klienta.</p>
               <a href="#contact" className="btn home-button-orange  text-uppercase w-75">Skontaktuj się</a>
             </MDBCol>
           </MDBRow>

@@ -57,7 +57,7 @@ class Contact extends Component {
         document.getElementById("contact-form").classList.add("d-none");
         document.getElementById("contact-subtitle").classList.add("d-none");
         document.getElementById("contact-title").classList.add("animation-fade-in");
-        document.getElementById("contact-title").innerHTML = "Dziękujemy za kontakt! <span style = 'color: coral'> odezwiemy się </span> do Ciebie w ciągu 24 godzin. ";
+        document.getElementById("contact-title").innerHTML = "Dziękujemy za kontakt! <span style = 'color: coral'> Odezwiemy się </span> do Ciebie w ciągu 24 godzin. ";
       }, 2000);
 
 
