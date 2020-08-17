@@ -8,7 +8,7 @@ class Projects extends Component {
   render() {
     return (
       <MDBContainer fluid id="projects-section" className="min-vh-100">
-          <h3 className = "mx-auto text-center"><span className = "font-raleway-bold">Wybrane realizacje</span></h3>
+          <h3 className = "mx-auto text-center"><span className = "font-raleway-bold">Nasze projekty</span></h3>
           <hr className = "w-25 text-center projects-hr"></hr>
         <MDBRow>
           {projects.map((project, index) => {

@@ -3,9 +3,9 @@ import emailjs from "emailjs-com";
 
 import { MDBCol, MDBContainer, MDBRow, MDBInput, MDBIcon, MDBAlert } from "mdbreact";
 
-import Envelope from "../assets/images/projects_envelope.png";
-import Telephone from "../assets/images/projects_telephone.png";
-import Mess from "../assets/images/projects_mess.png";
+// import Envelope from "../assets/images/projects_envelope.png";
+// import Telephone from "../assets/images/projects_telephone.png";
+// import Mess from "../assets/images/projects_mess.png";
 
 class Contact extends Component {
 
@@ -104,7 +104,7 @@ class Contact extends Component {
             </div>
           </form>
         </MDBRow>
-        <hr className="contact-hr-orange mx-auto"></hr>
+        {/* <hr className="contact-hr-orange mx-auto"></hr>
         <p className="h5 text-center my-4">Wolisz tradycyjne metody?</p>
         <MDBRow>
           <MDBCol xs="6" lg="4" className="text-center my-2">
@@ -120,8 +120,7 @@ class Contact extends Component {
             <p className="mt-2"><span className="font-raleway-bold">+48 </span>732 030 944</p>
             <p className="mt-1"><span className="font-raleway-bold">+48 </span>506 746 648</p>
           </MDBCol>
-        </MDBRow>
-        <hr className="contact-hr-orange mx-auto"></hr>
+        </MDBRow> */}
         <p className="font-raleway-bold h5 text-center margin-contact-bottom">Czekamy na twoją wiadomość!<MDBIcon className="orange-icon mx-2" icon="heart"></MDBIcon></p>
       </MDBContainer>
     );

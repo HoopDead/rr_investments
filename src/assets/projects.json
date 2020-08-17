@@ -4,6 +4,8 @@
         "title": "Miss Dress",
         "previewPhoto": "missdress.png",
         "slug": "project-miss-dress",
+        "description": "Projekt wysoce atrakcyjnej wizualnie oraz przejrzystej witryny internetowej dla salonu sprzedaży sukien oraz garniturów ślubnych Miss Dress.",
+        "industry": "Przemysł modowy, punkt sprzedaży stacjonarnej.",
         "scopeOfWork": "React, JavaScript, CSS3, HTML5 oraz MDBootstrap",
         "page": "miss_dress_site.png"
     },
@@ -12,6 +14,8 @@
         "title": "Strzyga",
         "previewPhoto": "strzyga.png",
         "slug": "project-strzyga",
+        "description": "Projekt wysoce funkcjonalnej witryny internetowej dla salonu fryzjerskiego Strzyga, stanowiącej wizytówkę firmy. Dodatkową funkcjonalnością strony jest możliwość zapisanie się na wizytę fryzjerską online za pośrednictwem wbudowanego, responsywnego terminarza wizyt.",
+        "industry": "Usługi kosmetyczne, salon fryzjerski.",
         "scopeOfWork": "React, JavaScript, CSS3, HTML5 oraz MDBootstrap",
         "page": "strzyga_site.png"
     },
@@ -20,6 +24,8 @@
         "title": "Sashimi Sushi",
         "previewPhoto": "sushi.png",
         "slug": "project-sushi",
+        "description": "Projekt funkcjonalnej, atrakcyjnej pod względem wizualnym strony internetowej stanowiącej wizytówkę restauracji Sashimi Sushi specjalizującej się w kuchni orientalnej.",
+        "industry": "Usługi gastronomiczne, restauracja",
         "scopeOfWork": "React, JavaScript, CSS3, HTML5 oraz MDBootstrap",
         "page": "sashimi_sushi_site.png"
     }
